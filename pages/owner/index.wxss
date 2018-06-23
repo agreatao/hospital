@@ -1,1 +1,102 @@
 /* pages/owner/index.wxss */
+page{
+  width: 750rpx;
+  background: #F1F2F6;
+}
+.owner{
+  width:750rpx;
+  height: 258rpx;
+  background: #fff;
+  position: relative;
+  border-top: 1rpx solid #F1F2F6;
+}
+.owner .bg{
+  display: block;
+  margin: 0 auto;
+  margin-top: 23rpx;
+  width:710rpx;
+  height: 228rpx;
+}
+.owner .head{
+  width: 112rpx;
+  height: 112rpx;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  left: 40rpx;
+  top:69rpx;
+}
+.owner .name{
+  position: absolute;
+  left: 178rpx;
+  top:76rpx;
+  color: #fff;
+  font-size: 32rpx;
+}
+.owner .cardCode{
+  position: absolute;
+  left: 178rpx;
+  top:124rpx;
+  color: #fff;
+  font-size:24rpx;
+}
+.owner .set{
+  position: absolute;
+  right: 145rpx;
+  bottom:46rpx;
+  width: 32rpx;
+  height: 32rpx;
+}
+.owner .msg{
+  position: absolute;
+  right: 76rpx;
+  bottom:46rpx;
+  width: 32rpx;
+  height: 28rpx;
+}
+.owner .msgCount{
+  width: 28rpx;
+  height: 28rpx;
+  border: 1rpx solid #fff;
+  background: #ff4f29;
+  border-radius: 50%;
+  position: absolute;
+  right: 48rpx;
+  bottom:66rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 28rpx;
+  font-size: 20rpx;
+}
+.list{
+  width: 750rpx;
+  height: 387rpx;
+  background: #fff;
+  margin-top: 20rpx;
+}
+.list .item{
+  width: 750rpx;
+  height: 96rpx;
+  border-bottom: 1rpx solid #F1F2F6;
+  margin-left: 100rpx;
+}
+.list .item image{
+  width: 48rpx;
+  height: 48rpx;
+  float: left;
+  margin-left: -80rpx;
+  margin-top: 24rpx;
+}
+.list .item text{
+  line-height: 96rpx;
+  font-size: 32rpx;
+  color: #222529;
+  float: left;
+}
+.list .item .arrow{
+  line-height: 96rpx;
+  font-size: 32rpx;
+  color: #8E8E93;
+  float: right;
+  margin-right: 130rpx;
+}
