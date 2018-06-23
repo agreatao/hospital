@@ -1,0 +1,46 @@
+.container {
+  padding: 5px 10px;
+  background-color: #1B67FF;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.08);
+  padding: 8px 15px;
+  border-radius: 4px;
+}
+
+.form image {
+  width: 15px;
+  height: 15px;
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+
+.form input {
+  font-size: 32rpx;
+  color: #fff;
+  flex: 1;
+}
+
+.form .ph {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.search-list {
+  padding-top: 15px;
+}
+
+.title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.doctors {
+  margin-top: 15px;
+}

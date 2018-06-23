@@ -1,0 +1,17 @@
+<navigator class="doctor" url="/pages/doctor/index">
+  <view class="info">
+    <image src="http://dummyimage.com/75x90/DBDBDB"></image>
+    <view class="text-info">
+      <text class="name">小明</text>
+      <view class="base">
+        <text>主任医师 教授</text>
+        <text class="right">咨询人次： <text>104次</text></text>
+      </view>
+      <view class="base">
+        <text>风湿科 免疫科</text>
+        <text class="right">好评率： <text>96%</text></text>
+      </view>
+    </view>
+  </view>
+  <text class="major">擅长：风湿病、免疫病、热带病与寄生虫病和肿瘤标记图标记物，过敏疾病的检测。</text>
+</navigator>

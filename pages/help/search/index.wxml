@@ -1,0 +1,14 @@
+<scroll-view class="container">
+  <view class="form">
+    <image src="/assets/search.png" />
+    <input type="text" class="search" placeholder="请输入你想要搜索的医生姓名" placeholder-class='ph'/>
+  </view>
+  <view class="search-list">
+    <text class="title">专家列表</text>
+    <view class="doctors">
+      <doctor />
+      <doctor />
+      <doctor />
+    </view>
+  </view>
+</scroll-view>

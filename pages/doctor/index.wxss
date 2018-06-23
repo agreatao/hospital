@@ -1,0 +1,19 @@
+.name {
+  display: block;
+  background-color: #1B67FF;
+  padding: 32rpx 0 300rpx 25rpx;
+  color: #fff;
+}
+
+.info-box {
+  width: 700rpx;
+  margin: 0 auto;
+  border-radius: 8rpx;
+  background-color: #fff;
+  box-shadow: 0px 2px 8px 0 #A6B7D9;
+  position: absolute;
+  top: 140rpx;
+  left: 50%;
+  margin-left: -350rpx;
+  border: 1px solid #aaa;
+}

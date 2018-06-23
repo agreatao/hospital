@@ -1,0 +1,25 @@
+<scroll-view class="container">
+  <text class="name">小明</text>
+  <view class="doctor-box">
+    <view>
+      <image />
+      <view>
+        <text>独山子人民医院</text>
+        <text>主治医生 皮肤科</text>
+      </view>
+      <view>
+        <button>关注</button>
+        <button>分享</button>
+      </view>
+    </view>
+    <view>
+    
+    </view>
+    <view>
+    
+    </view>
+    <view>
+    
+    </view>
+  </view>
+</scroll-view>

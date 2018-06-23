@@ -1,10 +1,12 @@
 {
   "pages": [
-    "pages/help/index",
     "pages/appoint/index",
     "pages/feature/index",
+    "pages/help/index",
+    "pages/help/search/index",
     "pages/owner/index",
-    "pages/service/index"
+    "pages/service/index",
+    "pages/doctor/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
