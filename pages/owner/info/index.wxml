@@ -1,0 +1,58 @@
+<scroll-view class="container">
+  <view class='list'>
+    <navigator class='item head_info'>
+        <text class='wtinfo'>头像</text>
+        <image class='arrow' src='../../../assets/arrow_info2.png'></image>
+        <image class='head'></image>
+    </navigator>
+    <navigator class='item'>
+        <text class='wtinfo'>昵称</text>      
+        <image class='arrow' src='../../../assets/arrow_info2.png'></image>
+        <text class='asinfo'>不吃与的吗</text>
+    </navigator>
+  </view>
+ <view class='list list2'>
+    <navigator class='item'>
+        <text class='wtinfo'>姓名</text>      
+        <text class='asinfo'>杨思敏</text>
+    </navigator>
+    <navigator class='item'>
+        <text class='wtinfo'>性别</text>      
+        <text class='asinfo'>男</text>
+    </navigator>
+        <navigator class='item'>
+        <text class='wtinfo'>身份证号</text>      
+        <text class='asinfo'>321023********0251</text>
+    </navigator>
+  </view>
+    <view class='list list3'>
+    <navigator class='item'>
+        <text class='wtinfo'>工作单位</text>      
+        <image class='arrow' src='../../../assets/arrow_info2.png'></image>
+        <text class='asinfo'>无</text>
+    </navigator>
+     <navigator class='item'>
+        <text class='wtinfo'>职业</text>      
+        <image class='arrow' src='../../../assets/arrow_info2.png'></image>
+        <text class='asinfo'>教师</text>
+    </navigator>
+  </view>
+    <view class='list list4'>
+    <navigator class='item'>
+        <text class='wtinfo'>电话</text>      
+        <image class='arrow' src='../../../assets/arrow_info2.png'></image>
+        <text class='asinfo'>15366869988</text>
+    </navigator>
+     <navigator class='item'>
+        <text class='wtinfo'>EMAIL</text>      
+        <image class='arrow' src='../../../assets/arrow_info2.png'></image>
+        <text class='asinfo'>13345454@qq.com</text>
+    </navigator>
+        <navigator class='item'>
+        <text class='wtinfo'>密码修改</text>      
+        <image class='arrow' src='../../../assets/arrow_info2.png'></image>
+        <text class='asinfo'>......</text>
+    </navigator>
+  </view>
+  <button class='login_out'>退出登录</button>
+</scroll-view>

@@ -5,6 +5,11 @@
     "pages/help/index",
     "pages/help/search/index",
     "pages/owner/index",
+    "pages/owner/love/index",
+    "pages/owner/info/index",
+    "pages/owner/door/index",
+    "pages/owner/door/recharge/index",
+    "pages/owner/room/index",
     "pages/service/index",
     "pages/doctor/index"
   ],

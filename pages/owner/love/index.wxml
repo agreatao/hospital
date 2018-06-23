@@ -1,0 +1,11 @@
+<!--pages/feature/index.wxml-->
+<scroll-view class="container">
+<view class='tip'>
+  <text>长按可取消关注</text>
+</view>
+ <view class="doctors">
+      <doctor />
+      <doctor />
+      <doctor />
+    </view>
+</scroll-view>

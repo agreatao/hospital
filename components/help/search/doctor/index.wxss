@@ -1,7 +1,7 @@
 .doctor {
   display: flex;
   flex-direction: column;
-  background-color: #F4F6F9;
+  background-color: #fff;
   margin-bottom: 50rpx;
   padding: 25rpx;
   border-radius: 8rpx;

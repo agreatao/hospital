@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.94",
 	"appid": "wx34a4ad9639c830e7",
-	"projectname": "project",
+	"projectname": "hospital",
 	"isGameTourist": false,
 	"condition": {
 		"search": {

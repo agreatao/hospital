@@ -1,0 +1,52 @@
+page{
+  width: 750rpx;
+  background: #F1F2F6;
+}
+.recharge{
+  display: flex;
+  flex-direction: column;
+ padding: 40rpx;
+ padding-bottom: 15rpx;
+  background: #fff;
+  box-shadow:0px 1px 0px 0px rgba(0,0,0,0.15);
+  margin-top: 20rpx;
+}
+.title{
+  font-size:28rpx;
+  font-family:PingFangSC-Regular;
+  color:#222529;
+}
+.inmy{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40rpx;
+} 
+.inmy text{
+    font-size:40rpx;
+    color:#41474E;
+    line-height: 100rpx;
+}
+.inmy input{
+  display: inline-block;
+  width: 550rpx;
+  height:82rpx;
+  font-size:68rpx; 
+}
+.inmy image{
+  width: 28rpx;
+  height:28rpx;
+  margin-top: 40rpx;
+}
+.sure{
+  width:690rpx;
+  height:88rpx;
+  background:#1B67FF;
+  border-radius:10rpx;
+  font-size:36rpx;
+  font-family:PingFangSC-Regular;
+  color:rgba(255,255,255,1);
+  line-height:88rpx;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40rpx;
+}

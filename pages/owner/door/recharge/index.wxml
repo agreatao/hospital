@@ -1,0 +1,9 @@
+<view class="recharge">
+  <view class='title'>充值金额(元)</view>
+  <view class='inmy'>
+   <text>￥</text>
+   <input></input>
+   <image src='../../../../assets/clear.png'></image>
+  </view>
+</view>
+  <button class='sure'>确定充值</button>

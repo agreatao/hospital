@@ -94,9 +94,9 @@ page{
   float: left;
 }
 .list .item .arrow{
-  line-height: 96rpx;
-  font-size: 32rpx;
-  color: #8E8E93;
+  width: 21rpx;
+  height: 24rpx;
   float: right;
   margin-right: 130rpx;
+  margin-top: 36rpx
 }

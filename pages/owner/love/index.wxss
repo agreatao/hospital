@@ -1,0 +1,21 @@
+/* pages/love/index.wxss */
+page{
+  width: 750rpx;
+  background: #F1F2F6;
+}
+.container {
+  padding: 5px 10px;
+}
+.tip{
+  font-size: 24rpx;
+  color: #A3ACBF;
+  width: 750rpx;
+  height: 80rpx;
+  text-align: center;
+}
+.tip text{
+  line-height: 75rpx;
+}
+.doctor{
+  background: #fff;
+}
