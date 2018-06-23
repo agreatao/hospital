@@ -1,19 +1,133 @@
 .name {
   display: block;
   background-color: #1B67FF;
-  padding: 32rpx 0 300rpx 25rpx;
+  padding: 25rpx 0 300rpx 65rpx;
   color: #fff;
 }
 
-.info-box {
-  width: 700rpx;
-  margin: 0 auto;
-  border-radius: 8rpx;
+.doctor-box-container {
+  padding: 10px 20px;
+  margin-top: -280rpx;
+}
+
+.doctor-box {
+  border-radius: 16rpx;
   background-color: #fff;
-  box-shadow: 0px 2px 8px 0 #A6B7D9;
-  position: absolute;
-  top: 140rpx;
-  left: 50%;
-  margin-left: -350rpx;
-  border: 1px solid #aaa;
+  box-shadow: 0 2px 20px 0 #A6B7D9;
+  padding: 10px;
+}
+
+.doctor-info {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.doctor-info image {
+  display: block;
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.doctor-info .base-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.doctor-info .base-info .hosiptal {
+  font-weight: bold;
+  color: #222529;
+  margin: 10px 0 10px 0;
+}
+
+.doctor-info .base-info .major {
+  color: #55585D;
+  font-size: 28rpx;
+}
+
+.doctor-info .btns button {
+  border: 1px solid #A3ACBF;
+  background-color: #fff;
+  font-size: 25rpx;
+  padding: 0 10px;
+  color: #868FA0;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.doctor-info .btns button image {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 2px;
+}
+
+.detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 28rpx;
+  margin-bottom: 10px;
+  color: #868FA0;
+}
+
+.detail image {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin-right: 15px;
+}
+
+.detail text text {
+  color: #FF4F29;
+}
+
+.detail .item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.detail .behavior {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+}
+
+.detail .behavior text {
+  flex: 1;
+}
+
+.container {
+  padding-bottom: 51px;
+}
+
+.fix-bottom {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0 20px;
+  justify-content: space-around;
+  box-shadow:0px -1px 7px 0px rgba(0, 0, 0, 0.15);
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.fix-bottom navigator {
+  background-color: #007AFF;
+  color: #fff;
+  padding: 5px 25px;
+  border-radius: 15.5px;
+}
+
+.fix-bottom .ori {
+  background: #FF4F29;
 }

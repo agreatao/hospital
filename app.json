@@ -19,32 +19,32 @@
     "selectedColor": "#1B67FF",
     "list": [
       {
-        "iconPath": "assets/1.png",
-        "selectedIconPath": "assets/1-active.png",
+        "iconPath": "assets/nav/1.png",
+        "selectedIconPath": "assets/nav/1-active.png",
         "pagePath": "pages/appoint/index",
         "text": "预约"
       },
       {
-        "iconPath": "assets/2.png",
-        "selectedIconPath": "assets/2-active.png",
+        "iconPath": "assets/nav/2.png",
+        "selectedIconPath": "assets/nav/2-active.png",
         "pagePath": "pages/service/index",
         "text": "便民"
       },
       {
-        "iconPath": "assets/3.png",
-        "selectedIconPath": "assets/3-active.png",
+        "iconPath": "assets/nav/3.png",
+        "selectedIconPath": "assets/nav/3-active.png",
         "pagePath": "pages/help/index",
         "text": "咨询"
       },
       {
-        "iconPath": "assets/4.png",
-        "selectedIconPath": "assets/4-active.png",
+        "iconPath": "assets/nav/4.png",
+        "selectedIconPath": "assets/nav/4-active.png",
         "pagePath": "pages/feature/index",
         "text": "特色"
       },
       {
-        "iconPath": "assets/5.png",
-        "selectedIconPath": "assets/5-active.png",
+        "iconPath": "assets/nav/5.png",
+        "selectedIconPath": "assets/nav/5-active.png",
         "pagePath": "pages/owner/index",
         "text": "我的"
       }

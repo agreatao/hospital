@@ -1,25 +1,59 @@
 <scroll-view class="container">
   <text class="name">小明</text>
-  <view class="doctor-box">
-    <view>
-      <image />
-      <view>
-        <text>独山子人民医院</text>
-        <text>主治医生 皮肤科</text>
+  <view class="doctor-box-container">
+    <view class="doctor-box">
+      <view class="doctor-info">
+        <image src="http://dummyimage.com/150x150/DBDBDB" />
+        <view class="base-info">
+          <text class="hosiptal">独山子人民医院</text>
+          <text class="major">主治医生 皮肤科</text>
+        </view>
+        <view class="btns">
+          <button><image src="/assets/doctor/plus.png" />关注</button>
+          <button><image src="/assets/doctor/share.png" />分享</button>
+        </view>
       </view>
-      <view>
-        <button>关注</button>
-        <button>分享</button>
+      <view class="detail">
+        <view class="item">
+          <image src="/assets/doctor/custom.png" />
+          <text>咨询人次：<text>1034</text></text>
+        </view>
+        <view class="item">
+          <text>咨询价格：<text>15元</text></text>
+        </view>
+      </view>
+      <view class="detail">
+        <view class="item">
+          <image src="/assets/doctor/good.png" />
+          <text>好评率：<text>96%</text></text>
+        </view>
+      </view>
+      <view class="detail">
+        <view class="behavior">
+          <image src="/assets/doctor/behavior.png" />
+          <text>擅长：风湿病、免疫病、热带病与寄生虫病和肿瘤标记图标记物，过敏疾病的检测。</text>
+        </view>
       </view>
     </view>
-    <view>
-    
+  </view>
+  <view class="comments-container">
+    <view class="title">
+      <text>患者评价（1205）</text>
+      <navigator>全部</navigator>
     </view>
-    <view>
-    
+    <view class="label">
+      <text>水平很高（1095）</text>
+      <text>医生很体贴（508）</text>
+      <text>回复及时（1508）</text>
+      <text>态度一般（4）</text>
     </view>
-    <view>
-    
+    <view class="comments-list">
+      <comment />
+      <comment />
     </view>
   </view>
 </scroll-view>
+<view class="fix-bottom">
+  <navigator>付费咨询</navigator>
+  <navigator class="ori">预约挂号</navigator>
+</view>
