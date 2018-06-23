@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/appoint/index",
+    "pages/feature/index",
+    "pages/help/index",
+    "pages/owner/index",
+    "pages/service/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "独山子人民医院",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#C0C0C5",
+    "selectedColor": "#1B67FF",
+    "list": [
+      {
+        "iconPath": "assets/appoint.png",
+        "selectedIconPath": "assets/appoint-active.png",
+        "pagePath": "pages/appoint/index",
+        "text": "预约"
+      },
+      {
+        "iconPath": "assets/service.png",
+        "selectedIconPath": "assets/service-active.png",
+        "pagePath": "pages/service/index",
+        "text": "便民"
+      },
+      {
+        "iconPath": "assets/help.png",
+        "selectedIconPath": "assets/help-active.png",
+        "pagePath": "pages/help/index",
+        "text": "咨询"
+      },
+      {
+        "iconPath": "assets/feature.png",
+        "selectedIconPath": "assets/feature-active.png",
+        "pagePath": "pages/feature/index",
+        "text": "特色"
+      },
+      {
+        "iconPath": "assets/owner.png",
+        "selectedIconPath": "assets/owner-active.png",
+        "pagePath": "pages/owner/index",
+        "text": "我的"
+      }
+    ]
+  }
+}

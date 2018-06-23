@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "doctor": "/components/help/doctor/index"
+  }
+}
