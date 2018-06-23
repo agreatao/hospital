@@ -1,12 +1,28 @@
-<view class="container">
+<scroll-view class="container">
   <view class="btn-group">
-    <button>A</button>
-    <button>B</button>
-    <button>C</button>
-    <button>D</button>
+    <button class="btn">
+      <image src="/assets/check.png" />
+      <text>查找医生</text>
+    </button>
+    <button class="btn">
+      <image src="/assets/code.png" />
+      <text>扫一扫</text>
+    </button>
+    <button class="btn">
+      <image src="/assets/history.png" />
+      <text>历史查询</text>
+    </button>
+    <button class="btn">
+      <image src="/assets/more.png" />
+      <text>更多</text>
+    </button>
   </view>
   <view class="recent">
     <text class="title">最近咨询</text>
-    <doctor />
+    <view class="doctors">
+      <doctor />
+      <doctor />
+      <doctor />
+    </view>
   </view>
-</view>
+</scroll-view>

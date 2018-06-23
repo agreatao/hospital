@@ -1,1 +1,90 @@
-/* components/help-doctor/index.wxss */
+.doctor {
+  display: flex;
+  flex-direction: column;
+  background-color: #F4F6F9;
+  margin-bottom: 100rpx;
+  padding: 25rpx 25rpx 50rpx 25rpx;
+  border-radius: 8rpx;
+  position: relative;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+.info image {
+  width: 75px;
+  height: 90px;
+}
+
+.text-info {
+  margin-left: 15px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+.text-info .name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #222529;
+  margin-bottom: 15px;
+}
+
+.text-info .base {
+  font-size: 28rpx;
+  color: #55585D;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.base .right {
+  color: #868FA0;
+}
+
+.base .right text {
+  color: #FF4F29;
+}
+
+.time {
+  padding: 10px 2px;
+  font-size: 14px;
+  color: #868FA0;
+}
+
+.reply {
+  padding: 15px 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  width: 600rpx;
+  background-color: #fff;
+  border-radius: 8rpx;
+  position: absolute;
+  left: 50%;
+  margin-left: -322rpx;
+  bottom: -30px;
+  box-shadow: 0px 2px 8px 0 #DBDBDB;
+}
+
+.reply text {
+  font-size: 32rpx;
+  color: #FF4F29;
+}
+
+.reply text text {
+  color: #868FA0;
+}
+
+.reply image {
+  width: 15px;
+  height: 15px;
+}

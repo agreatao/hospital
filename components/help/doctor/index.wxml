@@ -1,2 +1,21 @@
-<!--components/help-doctor/index.wxml-->
-<text>components/help-doctor/index.wxml</text>
+<view class="doctor">
+  <view class="info">
+    <image src="http://dummyimage.com/75x90/DBDBDB"></image>
+    <view class="text-info">
+      <text class="name">小明</text>
+      <view class="base">
+        <text>主任医师 教授</text>
+        <text class="right">咨询人次： <text>104次</text></text>
+      </view>
+      <view class="base">
+        <text>风湿科 免疫科</text>
+        <text class="right">好评率： <text>96%</text></text>
+      </view>
+    </view>
+  </view>
+  <text class="time">到期时间：2018-10-42 13:40</text>
+  <view class="reply">
+    <text>最新回复：<text>你这个问题不严重，请不要...</text></text>
+    <image src="/assets/arrow-right.png" />
+  </view>
+</view>

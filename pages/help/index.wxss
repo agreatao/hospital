@@ -1,1 +1,42 @@
-/* pages/help/index.wxss */
+.btn-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 15px;
+  background-color: #ffffff;
+  border-bottom: 10px solid #f6f6f6;
+}
+
+.btn {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 0;
+  background: none;
+}
+
+.btn image {
+  width: 66px;
+  height: 66px;
+}
+
+.btn text {
+  font-size: 14px;
+  color: #868FA0;
+  height: 30px;
+}
+
+.recent {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 18px;
+  padding: 24px 12px;
+  color: #222529;
+  font-weight: 600;
+}
+
+.doctors {
+  padding: 0 10px;
+}
