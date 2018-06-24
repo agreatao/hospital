@@ -30,9 +30,11 @@ page {
 }
 
 .box-item textarea {
+  display: block;
   background-color: #F8F8F8;
   border-radius: 8rpx;
-  width: 100%;
+  width: 660rpx;
+  margin: 0 auto;
   padding: 10px;
   font-size: 28rpx;
 }

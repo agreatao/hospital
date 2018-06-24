@@ -3,11 +3,11 @@
   <view class="box">
     <view class="box-item">
       <text>1、您的问题</text>
-      <textarea placeholder="在此输入您的问题" placeholder-class="plt" value="123123" />
+      <textarea placeholder="在此输入您的问题" placeholder-class="plt" />
     </view>
     <view class="box-item">
       <text>2、症状描述</text>
-      <textarea placeholder="请描述一下您的症状" placeholder-class="plt" value="123123" />
+      <textarea placeholder="请描述一下您的症状" placeholder-class="plt" />
     </view>
     <view class="box-item">
       <view class="image-list">
