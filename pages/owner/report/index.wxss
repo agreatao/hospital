@@ -1,0 +1,67 @@
+page{
+  width: 750rpx;
+  background: #F1F2F6;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+  border-top: 1px solid #F1F2F6;
+}
+.nav .tab{
+  flex: 1;
+  line-height: 80rpx;
+  font-size: 30rpx;
+  text-align: center;
+}
+.nav .active{
+  color: #1B67FF;
+  border-bottom: 1px solid #1B67FF;
+}
+.item{
+  width: 710rpx;
+  height: 214rpx;
+  background: #fff;
+  margin: 0 auto;
+  margin-top:20rpx;
+  border-radius: 8rpx;
+}
+.item .top{
+  width: 710rpx;
+  height: 79rpx;
+  border-bottom: 1px solid #F1F2F6;
+}
+.item .top .repotName{
+  font-size: 32rpx;
+  color:rgba(35,40,49,1);
+  line-height: 79rpx;
+  float: left;
+  margin-left: 32rpx;
+}
+.item .top .state{
+  font-size: 26rpx;
+  color:rgba(255,79,41,1);
+  line-height: 79rpx;
+  float: right;
+  margin-right: 23rpx;
+}
+.item .top .isOk{
+  color:rgba(134,143,160,1);
+}
+.item .bottom{
+  font-size:24rpx;
+  font-family:PingFangSC-Regular;
+  color:rgba(134,143,160,1);
+}
+.item .bottom .line{
+  padding-top: 35rpx;
+}
+.item .bottom .line .wtline{
+  float: left;
+  margin-left: 32rpx;
+}
+.item .bottom .line .lineDetil{
+  float: right;
+  margin-right: 23rpx;
+}

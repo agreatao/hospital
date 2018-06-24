@@ -15,6 +15,7 @@
     "pages/owner/door/index",
     "pages/owner/door/recharge/index",
     "pages/owner/room/index",
+    "pages/owner/report/index",
     "pages/service/index",
     "pages/help/record/index"
   ],
