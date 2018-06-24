@@ -12,3 +12,27 @@
 button::after {
   border: none;
 }
+
+.fix-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+}
+
+.pl {
+  color: #D0D3D9;
+}
+
+.submit {
+  display: block;
+  background-color: #1B67FF;
+  color: #fff;
+  border-radius: 8rpx;
+  width: 700rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin: 15px auto;
+  text-align: center;
+}

@@ -42,9 +42,9 @@
       <navigator>全部</navigator>
     </view>
     <view class="label">
-      <text>水平很高（1095）</text>
-      <text>医生很体贴（508）</text>
-      <text>回复及时（1508）</text>
+      <text class="high">水平很高（1095）</text>
+      <text class="high">医生很体贴（508）</text>
+      <text class="high">回复及时（1508）</text>
       <text>态度一般（4）</text>
     </view>
     <view class="comments-list">
@@ -54,6 +54,6 @@
   </view>
 </scroll-view>
 <view class="fix-bottom">
-  <navigator>付费咨询</navigator>
+  <navigator url="/pages/help/ask/index">付费咨询</navigator>
   <navigator class="ori">预约挂号</navigator>
 </view>

@@ -1,0 +1,35 @@
+<view class="point">
+  <view class="item">
+    <text>医生的服务态度</text>
+    <view class="star">
+      <image src="/assets/help/star-active.png" />
+      <image src="/assets/help/star-active.png" />
+      <image src="/assets/help/star-active.png" />
+      <image src="/assets/help/star-active.png" />
+      <image src="/assets/help/star-active.png" />
+    </view>
+  </view>
+  <view class="item">
+    <text>医生的专业水平</text>
+    <view class="star">
+      <image src="/assets/help/star-active.png" />
+      <image src="/assets/help/star-active.png" />
+      <image src="/assets/help/star-active.png" />
+      <image src="/assets/help/star.png" />
+      <image src="/assets/help/star.png" />
+    </view>
+  </view>
+  <view class="item">
+    <text>医生的回复速度</text>
+    <view class="star">
+      <image src="/assets/help/star.png" />
+      <image src="/assets/help/star.png" />
+      <image src="/assets/help/star.png" />
+      <image src="/assets/help/star.png" />
+      <image src="/assets/help/star.png" />
+    </view>
+  </view>
+</view>
+<textarea class="content" placeholder-class="pl" placeholder='分享您的就医感受'/>
+<button class="submit">提交</button>
+<text class="desc">您对我们的评价非常重要</text>

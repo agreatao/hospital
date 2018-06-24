@@ -1,0 +1,58 @@
+page {
+  background-color: #F1F2F6;
+}
+
+.desc {
+  display: block;
+  color: #868FA0;
+  font-size: 32rpx;
+  padding: 10px;
+}
+
+.desc text {
+  color: #FF6F18;
+}
+
+.box {
+  background-color: #fff;
+  padding:10px 10px 5px 10px;
+}
+
+.box-item {
+  margin-bottom: 10px;
+}
+
+.box-item text {
+  display: block;
+  font-size: 32rpx;
+  color: #222529;
+  padding: 10px;
+}
+
+.box-item textarea {
+  background-color: #F8F8F8;
+  border-radius: 8rpx;
+  width: 100%;
+  padding: 10px;
+  font-size: 28rpx;
+}
+
+.box-item .plt {
+  color: #A3ACBF;
+}
+
+.box-item button {
+  background-color: #fff;
+  color: #A3ACBF;
+  font-size: 32rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.box-item button image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 15px;
+}
+

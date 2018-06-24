@@ -1,0 +1,20 @@
+<scroll-view>
+  <view class="doctor">
+    <image src="http://dummyimage.com/150x150/DBDBDB" />
+    <view class="info">
+      <text>小明<text>主治医师     皮肤科</text></text>
+      <text class="hospital">独山子人民医院</text>
+    </view>
+    <view class="btns">
+      <button><image src="/assets/doctor/plus-white.png" />关注</button>
+      <button><image src="/assets/doctor/share-white.png" />分享</button>
+    </view>
+  </view>
+  <text class="time">咨询到期时间：2018-10-31 15:30</text>
+  <view class="content">
+
+  </view>
+</scroll-view>
+<view class="fix-bottom">
+  <button class="export"><image src="/assets/help/export.png" />导出此咨询记录</button>
+</view>

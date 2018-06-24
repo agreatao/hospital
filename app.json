@@ -1,9 +1,14 @@
 {
   "pages": [
+    "pages/help/historySearch/index",
     "pages/appoint/index",
     "pages/feature/index",
     "pages/help/index",
     "pages/help/search/index",
+    "pages/help/doctor/index",
+    "pages/help/ask/index",
+    "pages/help/contact/index",
+    "pages/help/evaluate/index",
     "pages/owner/index",
     "pages/owner/love/index",
     "pages/owner/info/index",
@@ -11,7 +16,7 @@
     "pages/owner/door/recharge/index",
     "pages/owner/room/index",
     "pages/service/index",
-    "pages/doctor/index"
+    "pages/help/record/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

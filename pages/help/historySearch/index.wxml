@@ -1,4 +1,4 @@
-<navigator class="doctor" url="/pages/help/doctor/index">
+<navigator class="doctor" url="/pages/help/record/index">
   <view class="info">
     <image src="http://dummyimage.com/75x90/DBDBDB"></image>
     <view class="text-info">
@@ -13,5 +13,5 @@
       </view>
     </view>
   </view>
-  <text class="major">擅长：风湿病、免疫病、热带病与寄生虫病和肿瘤标记图标记物，过敏疾病的检测。</text>
+  <text class="time">咨询时间：2018-10-42 13:40 - 2018-11-31 15:30</text>
 </navigator>

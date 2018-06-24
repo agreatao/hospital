@@ -1,1 +1,24 @@
-/* components/doctor/comment/index.wxss */
+.comment {
+  padding: 10px;
+  border-bottom: 1px solid #E5E5E5;
+  color: #55585D;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.user-info image {
+  display: inline-block;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.user-info text {
+  margin-right: 5px;
+}

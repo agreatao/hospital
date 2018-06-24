@@ -1,0 +1,45 @@
+page {
+  background-color: #f5f5f5;
+}
+
+.point {
+  background-color: #fff;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.item text {
+  color: #000;
+  font-weight: 500;
+  display: inline-block;
+  font-size: 32rpx;
+  margin-right: 15px;
+}
+
+.star image {
+  display: inline-block;
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 5px;
+}
+
+.content {
+  background-color: #fff;
+  padding: 10px;
+  font-size: 32rpx;
+}
+
+.desc {
+  display: block;
+  font-size: 32rpx;
+  text-align: center;
+  color: #A3ACBF;
+  margin-top: 15px;
+}

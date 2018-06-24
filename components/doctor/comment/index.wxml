@@ -1,2 +1,8 @@
-<!--components/doctor/comment/index.wxml-->
-<text>components/doctor/comment/index.wxml</text>
+<view class="comment">
+  <view class="user-info">
+    <image src="http://dummyimage.com/150x150/DBDBDB" />
+    <text>习惯沉默</text>
+    <text>5分</text>
+  </view>
+  <text class="content">医生技术非常好，医德双馨，感谢郭医生，感谢感谢！有机会的话就送锦旗了</text>
+</view>

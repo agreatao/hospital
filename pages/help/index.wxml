@@ -8,7 +8,7 @@
       <image src="/assets/help/code.png" />
       <text>扫一扫</text>
     </navigator>
-    <navigator class="btn">
+    <navigator class="btn" url="historySearch/index">
       <image src="/assets/help/history.png" />
       <text>历史查询</text>
     </navigator>
