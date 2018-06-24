@@ -1,19 +1,19 @@
 <scroll-view class="container">
   <view class="btn-group">
     <navigator class="btn" url="search/index">
-      <image src="/assets/check.png" />
+      <image src="/assets/help/search.png" />
       <text>查找医生</text>
     </navigator>
     <navigator class="btn">
-      <image src="/assets/code.png" />
+      <image src="/assets/help/code.png" />
       <text>扫一扫</text>
     </navigator>
     <navigator class="btn">
-      <image src="/assets/history.png" />
+      <image src="/assets/help/history.png" />
       <text>历史查询</text>
     </navigator>
     <navigator class="btn">
-      <image src="/assets/more.png" />
+      <image src="/assets/help/more.png" />
       <text>更多</text>
     </navigator>
   </view>

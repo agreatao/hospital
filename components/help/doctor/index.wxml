@@ -14,6 +14,8 @@
     </view>
   </view>
   <text class="time">到期时间：2018-10-42 13:40</text>
+</view>
+<view class="reply-container">
   <view class="reply">
     <text>最新回复：<text>你这个问题不严重，请不要...</text></text>
     <image src="/assets/arrow-right.png" />

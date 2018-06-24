@@ -1,5 +1,8 @@
 {
   "navigationBarBackgroundColor": "#1B67FF",
   "navigationBarTextStyle": "white",
-  "navigationBarTitleText": ""
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "comment": "/components/doctor/comment/index"
+  }
 }
