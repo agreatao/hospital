@@ -1,3 +1,6 @@
+page {
+  background-color: #1B67FF;
+}
 .container {
   padding: 5px 10px;
   background-color: #1B67FF;
@@ -24,10 +27,6 @@
   font-size: 32rpx;
   color: #fff;
   flex: 1;
-}
-
-.form .ph {
-  color: rgba(255, 255, 255, 0.6);
 }
 
 .search-list {

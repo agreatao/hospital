@@ -1,14 +1,18 @@
 <scroll-view class="container">
   <view class="form">
     <image src="/assets/search.png" />
-    <input type="text" class="search" placeholder="请输入你想要搜索的医生姓名" placeholder-class='ph'/>
+    <input type="text"
+           class="search"
+           placeholder="请输入你想要搜索的医生姓名"
+           placeholder-class="pl"
+           bindconfirm="searchDoctor" />
   </view>
   <view class="search-list">
     <text class="title">专家列表</text>
     <view class="doctors">
-      <doctor />
-      <doctor />
-      <doctor />
+      <view wx:for="{{list}}" wx:key="unique">
+        <doctor obj="{{item}}" />
+      </view>
     </view>
   </view>
 </scroll-view>
