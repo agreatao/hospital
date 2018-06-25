@@ -1,12 +1,12 @@
 <scroll-view class="container">
-  <text class="name">小明</text>
+  <text class="name">{{obj['姓名']}}</text>
   <view class="doctor-box-container">
     <view class="doctor-box">
       <view class="doctor-info">
-        <image src="http://dummyimage.com/150x150/DBDBDB" />
+        <image src="{{obj['头像']}}" />
         <view class="base-info">
-          <text class="hosiptal">独山子人民医院</text>
-          <text class="major">主治医生 皮肤科</text>
+          <text class="hosiptal">{{obj['机构']}}</text>
+          <text class="major">{{obj['职称']}} {{obj['科室']}}</text>
         </view>
         <view class="btns">
           <button><image src="/assets/doctor/plus.png" />关注</button>
@@ -16,22 +16,22 @@
       <view class="detail">
         <view class="item">
           <image src="/assets/doctor/custom.png" />
-          <text>咨询人次：<text>1034</text></text>
+          <text>咨询人次：<text>{{obj['咨询人次']}}</text></text>
         </view>
         <view class="item">
-          <text>咨询价格：<text>15元</text></text>
+          <text>咨询价格：<text>{{obj['价格']}}元</text></text>
         </view>
       </view>
       <view class="detail">
         <view class="item">
           <image src="/assets/doctor/good.png" />
-          <text>好评率：<text>96%</text></text>
+          <text>好评率：<text>{{obj['好评率'] || '0%'}}</text></text>
         </view>
       </view>
       <view class="detail">
         <view class="behavior">
           <image src="/assets/doctor/behavior.png" />
-          <text>擅长：风湿病、免疫病、热带病与寄生虫病和肿瘤标记图标记物，过敏疾病的检测。</text>
+          <text>擅长：{{obj['擅长']}}</text>
         </view>
       </view>
     </view>

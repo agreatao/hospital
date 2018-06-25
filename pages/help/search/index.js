@@ -6,7 +6,7 @@ Page({
     wx.request({
       url: "https://www.dszejt.com/ws/ws_xcx.asmx/Get_XCX_YSZX_YSList",
       data: {
-        strCXKey: '',
+        strCXKey: event.detail.value,
         strKey: "C1BC7666E5C74BD384196-AD1532102C1"
       },
       method: "POST",
