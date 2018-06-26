@@ -3,6 +3,6 @@
   "navigationBarTextStyle": "white",
   "navigationBarTitleText": "",
   "usingComponents": {
-    "comment": "/components/doctor/comment/index"
+    "comment": "/components/doctorComment/index"
   }
 }

@@ -3,6 +3,6 @@
   "navigationBarTextStyle": "white",
   "navigationBarTitleText": "查找医生",
   "usingComponents": {
-    "doctor": "/components/help/search/doctor/index"
+    "doctor": "/components/doctorItem/index"
   }
 }

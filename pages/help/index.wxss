@@ -38,6 +38,6 @@
   font-weight: 600;
 }
 
-.doctors {
+.recent-doctors {
   padding: 0 10px;
 }

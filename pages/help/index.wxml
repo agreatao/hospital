@@ -19,10 +19,10 @@
   </view>
   <view class="recent">
     <text class="title">最近咨询</text>
-    <view class="doctors">
-      <doctor />
-      <doctor />
-      <doctor />
+    <view class="recent-doctors">
+      <view wx:for="{{list}}" wx:key="unique">
+        <doctor obj="{{item}}"/>
+      </view>
     </view>
   </view>
 </scroll-view>
