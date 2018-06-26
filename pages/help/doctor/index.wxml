@@ -9,7 +9,7 @@
           <text class="major">{{obj['职称']}} {{obj['科室']}}</text>
         </view>
         <view class="btns">
-          <button><image src="/assets/doctor/plus.png" />关注</button>
+          <follow empid="{{obj['医生ID']}}" image="/assets/doctor/plus.png" />
           <button><image src="/assets/doctor/share.png" />分享</button>
         </view>
       </view>
@@ -38,7 +38,7 @@
   </view>
   <view class="comments-container">
     <view class="title">
-      <text>患者评价（1205）</text>
+      <text>患者评价（{{list.length}}）</text>
       <navigator>全部</navigator>
     </view>
     <view class="label">
@@ -48,12 +48,12 @@
       <text>态度一般（4）</text>
     </view>
     <view class="comments-list">
-      <comment />
+      <comment list-data="{{list}}"/>
       <comment />
     </view>
   </view>
 </scroll-view>
 <view class="fix-bottom">
-  <navigator url="/pages/help/ask/index">付费咨询</navigator>
+  <button bindtap="submit">付费咨询</button>
   <navigator class="ori">预约挂号</navigator>
 </view>

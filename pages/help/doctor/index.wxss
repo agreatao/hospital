@@ -122,7 +122,8 @@
   background-color: #fff;
 }
 
-.fix-bottom navigator {
+.fix-bottom button, .fix-bottom navigator {
+  display: inline-block;
   background-color: #007AFF;
   color: #fff;
   padding: 5px 25px;

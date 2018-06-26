@@ -3,6 +3,7 @@
   "navigationBarTextStyle": "white",
   "navigationBarTitleText": "",
   "usingComponents": {
-    "comment": "/components/doctorComment/index"
+    "comment": "/components/doctorComment/index",
+    "follow": "/components/followButton/index"
   }
 }

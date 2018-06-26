@@ -9,6 +9,11 @@
   font-family: "Microsoft YaHei";
 } 
 
+button {
+  margin: 0;
+  line-height: normal;
+}
+
 button::after {
   border: none;
 }

@@ -6,7 +6,7 @@
       <text class="hospital">{{obj['机构']}}</text>
     </view>
     <view class="btns">
-      <button><image src="/assets/doctor/plus-white.png" />关注</button>
+      <follow empid="{{obj['医生ID']}}" image="/assets/doctor/plus-white.png" />
       <button><image src="/assets/doctor/share-white.png" />分享</button>
     </view>
   </view>
