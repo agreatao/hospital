@@ -80,6 +80,13 @@
 
 .reply text text {
   color: #868FA0;
+  display: -webkit-box;
+  margin-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1; 
 }
 
 .reply image {

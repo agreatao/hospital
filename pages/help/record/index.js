@@ -1,30 +1,41 @@
-// pages/help/record/index.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
-  
+    obj: {},
+    list: []
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
   onLoad: function (options) {
-  
-  },
+    wx.request({
+      url: "https://www.dszejt.com/ws/ws_xcx.asmx/Get_XCX_YSZX_ZXInfo",
+      data: {
+        strZXID: options['ID'],
+        strKey: "C1BC7666E5C74BD384196-AD1532102C1"
+      },
+      method: "POST",
+      dataType: "JSON",
+      success: (res) => {
+        console.log(res);
+        this.setData({
+          obj: JSON.parse(JSON.parse(res.data).d)
+        })
+      }
+    })
+    wx.request({
+      url: "https://www.dszejt.com/ws/ws_xcx.asmx/Get_XCX_YSZX_ZXInfo_LYList",
+      data: {
+        strZXID: options['ID'],
+        strKey: "C1BC7666E5C74BD384196-AD1532102C1"
+      },
+      method: "POST",
+      dataType: "JSON",
+      success: (res) => {
+        console.log(res);
+        this.setData({
+          list: JSON.parse(JSON.parse(res.data).d)
+        })
+      }
+    })
 
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-  
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
   onShow: function () {
   
   },
