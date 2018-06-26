@@ -1,16 +1,9 @@
 <scroll-view class="container">
-  <view class='card'>
+ <view class='card' wx:for="{{list}}" wx:key="unique">
     <view class='info'>
-      <view>余额：<text class='left_money'>4000.00 </text></view>
-      <view style='margin-top:25rpx;'>卡号：15456454</view>
+      <view>余额：<text class='left_money'>{{item.DISP_BALANCE}}</text></view>
+      <view style='margin-top:25rpx;'>卡号：{{item.CARD_ID}}</view>
     </view> 
-    <navigator class='recharge' url='recharge/index' hover-class="none">充值</navigator>
-  </view>
-    <view class='card'>
-    <view class='info'>
-      <view>余额：<text class='left_money'>4000.00 </text></view>
-      <view style='margin-top:25rpx;'>卡号：15456454</view>
-    </view> 
-    <navigator class='recharge' url='recharge/index' hover-class="none">充值</navigator>
+    <navigator class='recharge' url='recharge/index?CARD_ID={{item.CARD_ID}}' hover-class="none">充值</navigator>
   </view>
 </scroll-view>

@@ -6,8 +6,6 @@ page{
   padding: 5px 10px;
 }
 .card{
-  display: flex;
-  flex-direction: row;
   background-color: #fff;
   margin-top: 34rpx;
   padding: 50rpx;
@@ -34,5 +32,6 @@ page{
   color: #fff;
   text-align: center;
   margin-left: 100rpx;
-  margin-top: 40rpx;
+  margin-top: -100rpx;
+  float: right;
 }
