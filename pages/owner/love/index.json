@@ -4,6 +4,6 @@
     "navigationBarTitleText": "我的关注",
     "navigationBarTextStyle": "black",
     "usingComponents": {
-      "doctor": "/components/help/search/doctor/index"
+      "doctor": "/components/doctorItem/index"
     }
 }
