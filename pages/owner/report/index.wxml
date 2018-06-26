@@ -1,11 +1,14 @@
-<view class="nav">
-  <view class='tab'>病史</view>
-  <view class='tab active'>检验</view>
-  <view class='tab'>检查</view>
-  <view class='tab'>医嘱</view>
+<view class='nav'>
+  <view wx:for="{{navbar}}" data-idx="{{index}}"
+   wx:key="unique" class="tab {{currentTab==index ? 'active' : ''}}" bindtap="navbarTap">
+    {{item}}
+  </view>
 </view>
+<!-- <view hidden="{{currentTab !== 0}}" id="one">
+  <template is="list" data="{{maintainRecordlist}}" />
+</view> -->
 <scroll-view>
-  <view class='item'>
+  <!-- <view class='item'>
     <view class='top'>
       <view class='repotName'>CT检验报告单</view>
       <view class='state'>等待中...</view>
@@ -34,6 +37,22 @@
       <view class='line' style="margin-top:15rpx;">
         <view class='wtline'>报告时间</view>
         <view class='lineDetil'>预计:2018.06.08-13：45</view>
+      </view>
+    </view>
+  </view> -->
+  <view class='item' wx:for="{{list}}">
+    <view class='top'>
+      <view class='repotName'>{{item.XMMC}}</view>
+      <view class='state'>等待中...</view>
+    </view>
+    <view class='bottom'>
+      <view class='line'>
+        <view class='wtline'>医生</view>
+        <view class='lineDetil'>{{item.SSYS}}</view>
+      </view>
+      <view class='line' style="margin-top:15rpx;">
+        <view class='wtline'>报告时间</view>
+        <view class='lineDetil'>预计:{{item.XMFSRQ}}</view>
       </view>
     </view>
   </view>

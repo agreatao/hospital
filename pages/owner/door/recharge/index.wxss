@@ -40,7 +40,7 @@ page{
 .sure{
   width:690rpx;
   height:88rpx;
-  background:#1B67FF;
+  background:#E0E0E0;
   border-radius:10rpx;
   font-size:36rpx;
   font-family:PingFangSC-Regular;
@@ -49,4 +49,13 @@ page{
   text-align: center;
   margin: 0 auto;
   margin-top: 40rpx;
+}
+.blue{
+    background:#1B67FF;
+}
+.hide{
+ display: none;
+}
+.show{ 
+ display: block;
 }

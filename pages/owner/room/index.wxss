@@ -50,6 +50,9 @@ page{
   margin: 0 auto;
   margin-top: 40rpx;
 }
+.blue{
+    background:#1B67FF;
+}
 .left_money{
   width:682rpx;
   height:192rpx;
@@ -69,4 +72,10 @@ page{
   color: #FF4F29;
   font-size: 72rpx;
   line-height: 135rpx;
+}
+.hide{
+ display: none;
+}
+.show{ 
+ display: block;
 }

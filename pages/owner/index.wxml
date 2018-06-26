@@ -1,9 +1,9 @@
 <!--pages/owner/index.wxml-->
   <view class='owner'>
       <image class='bg' src='../../assets/my_bg.png'></image>
-      <image class='head'></image>
-      <text class='name'>宋庆明</text> 
-      <text class='cardCode'>321123********4851</text>
+      <image class='head' src="{{obj['头像']}}"></image>
+      <text class='name'>{{obj['真实姓名']}}</text> 
+      <text class='cardCode'>{{sfz}}</text>
       <image class='set' src='../../assets/my_set.png'></image>
       <image class='msg' src='../../assets/my_msg.png'></image>
       <view class='msgCount'>11</view>

@@ -67,6 +67,7 @@ page{
   text-align: center;
   line-height: 28rpx;
   font-size: 20rpx;
+  display: none;
 }
 .list{
   width: 750rpx;

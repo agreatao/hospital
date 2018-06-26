@@ -2,8 +2,8 @@
   <view class='title'>充值金额(元)</view>
   <view class='inmy'>
    <text>￥</text>
-   <input></input>
-   <image src='../../../../assets/clear.png'></image>
+   <input type="digit"  value="{{inputValue}}" bindinput="listenerInput"></input>
+   <image src='../../../../assets/clear.png' class="hide {{clearShow?'show':''}}" bindtap="clearInput"></image>
   </view>
 </view>
-  <button class='sure'>确定充值</button>
+ <button class="sure {{buttonClick==true ? 'blue' : ''}}" disabled='{{disable}}'>确定充值</button>
