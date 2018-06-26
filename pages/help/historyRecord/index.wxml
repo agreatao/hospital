@@ -1,18 +1,20 @@
 <scroll-view>
   <view class="doctor">
-    <image src="http://dummyimage.com/150x150/DBDBDB" />
+    <image src="{{obj['头像']}}" />
     <view class="info">
-      <text>小明<text>主治医师     皮肤科</text></text>
-      <text class="hospital">独山子人民医院</text>
+      <text>{{obj['姓名']}}<text>{{obj['职称']}}     {{obj['科室']}}</text></text>
+      <text class="hospital">{{obj['机构']}}</text>
     </view>
     <view class="btns">
       <button><image src="/assets/doctor/plus-white.png" />关注</button>
       <button><image src="/assets/doctor/share-white.png" />分享</button>
     </view>
   </view>
-  <text class="time">咨询到期时间：2018-10-31 15:30</text>
+  <text class="time">咨询到期时间：{{obj['结束时间']}}</text>
   <view class="content">
-
+    <view wx:for="{{list}}" wx:key="unique">
+      <message obj="{{item}}"/>
+    </view>
   </view>
 </scroll-view>
 <view class="fix-bottom">

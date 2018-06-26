@@ -82,3 +82,7 @@ page {
   height: 51rpx;
   margin-right: 15px;
 }
+
+.content {
+  padding: 0 10px;
+}

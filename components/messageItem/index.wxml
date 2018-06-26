@@ -1,0 +1,4 @@
+<view class="who-{{obj['留言对象']}}">
+  <image src="{{obj['头像']}}" />
+  <text>{{obj['内容']}}</text>
+</view>

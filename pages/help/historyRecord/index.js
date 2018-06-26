@@ -13,9 +13,8 @@ Page({
       method: "POST",
       dataType: "JSON",
       success: (res) => {
-        console.log(res);
         this.setData({
-          obj: JSON.parse(JSON.parse(res.data).d)
+          obj: JSON.parse(JSON.parse(res.data).d)[0]
         })
       }
     })
@@ -28,7 +27,6 @@ Page({
       method: "POST",
       dataType: "JSON",
       success: (res) => {
-        console.log(res);
         this.setData({
           list: JSON.parse(JSON.parse(res.data).d)
         })

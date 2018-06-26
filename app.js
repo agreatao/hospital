@@ -14,6 +14,7 @@ App({
       dataType: "JSON",
       success: (res) => {
         this.globalData.userinfo = JSON.parse(JSON.parse(res.data).d)[0];
+        console.log(JSON.parse(JSON.parse(res.data).d)[0])
       }
     })
   }
