@@ -3,7 +3,11 @@ page {
 }
 
 .contact {
-  padding-bottom: 70rpx;
+  padding-bottom: 43px;
+}
+
+.complete-top {
+  padding-bottom: 108px;
 }
 
 .doctor {
@@ -70,37 +74,36 @@ page {
   text-align: center;
 }
 
-.fix-bottom {
-  background-color: #f5f5f5;
-}
-
 .fix-bottom input {
   padding: 10px;
   font-size: 32rpx;
   color: #555;
 }
 
-.fix-bottom .pl {
-  color: #D2D2D2;
+.complete {
+  background-color: #f5f5f5;
 }
 
-.fix-bottom button {
+.complete button, .complete navigator {
   font-size: 32rpx;
   color: #A3ACBF;
-  padding: 5px 10px;
+  padding: 10px 0;
   background-color: #fff;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  max-width: 660rpx;
+  margin: 10px auto;
 }
 
-.fix-bottom button text {
+.complete button text, .complete navigator text{
   color: #FF4F29;
 }
 
-.fix-bottom button image {
+.complete button image {
   width: 63rpx;
   height: 51rpx;
   margin-right: 15px;
 }
+

@@ -54,6 +54,6 @@
   </view>
 </scroll-view>
 <view class="fix-bottom">
-  <button bindtap="submit">付费咨询</button>
-  <navigator class="ori">预约挂号</navigator>
+  <button bindtap="submit" hover-class="none">付费咨询</button>
+  <navigator class="ori" hover-class="none">预约挂号</navigator>
 </view>

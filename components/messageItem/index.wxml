@@ -1,4 +1,10 @@
-<view class="who-{{obj['留言对象']}}">
-  <image src="{{obj['头像']}}" />
-  <text>{{obj['内容']}}</text>
+<view wx:for="{{listData}}"
+      wx:key="unique"
+      class="who-{{item['留言对象']}}"
+      bindtap="click"
+      bindtouchstart="touchstart"
+      bindtouchend="touchend"
+      data-id="{{item['留言ID']}}" data-sfzh="{{item['留言人ID']}}" data-index="{{index}}">
+  <image src="{{item['头像']}}" />
+  <text>{{item['内容']}}</text>
 </view>

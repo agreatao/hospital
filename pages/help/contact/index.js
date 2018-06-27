@@ -4,7 +4,8 @@ Page({
   data: {
     obj: {},
     list: [],
-    onContact: true
+    onContact: true,
+    inputValue: null
   },
   onLoad: function (options) {
     wx.request({
@@ -51,14 +52,17 @@ Page({
       dataType: "JSON",
       success: (res) => {
         var result = JSON.parse(JSON.parse(res.data).d);
+        console.log(result);
         if(result.code === "0") {
           this.data.list.push({
             '头像': app.globalData.userinfo['头像'],
             '内容': e.detail.value,
-            '留言对象': 'H'
+            '留言对象': 'H',
+            '留言ID': result['留言ID']
           });
           this.setData({
-            list: this.data.list
+            list: this.data.list,
+            inputValue: null
           });
         }
       }

@@ -78,10 +78,10 @@
   color: #FF4F29;
 }
 
-.reply text text {
+.reply text.content {
+  flex: 1;
   color: #868FA0;
   display: -webkit-box;
-  margin-top: 10px;
   overflow: hidden;
   text-overflow: ellipsis;
   word-break: break-all;
