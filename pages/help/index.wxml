@@ -21,7 +21,7 @@
     <text class="title">最近咨询</text>
     <view class="recent-doctors">
       <view wx:for="{{list}}" wx:key="unique">
-        <doctor obj="{{item}}"/>
+        <doctor obj="{{item}}" />
       </view>
     </view>
   </view>

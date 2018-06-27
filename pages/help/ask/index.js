@@ -1,66 +1,42 @@
-// pages/help/ask/index.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
-  
+    id: null,
+    title: "",
+    content: ""
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
   onLoad: function (options) {
-  
+    this.setData({
+      id: options['ID']
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-  
+  startConsult: function(e) {
+    if(this.data.title !== "" && this.data.content !== "") {
+      wx.request({
+        url: "https://www.dszejt.com/ws/ws_xcx.asmx/Set_XCX_YSZX_WTMS",
+        data: {
+          strZXID: this.data.id,
+          strWT: this.data.title,
+          strMS: this.data.content,
+          strKey: "C1BC7666E5C74BD384196-AD1532102C1"
+        },
+        method: "POST",
+        dataType: "JSON",
+        success: (res) => {
+          wx.navigateTo({
+            url: "/pages/help/contact/index?ID=" + this.data.id,
+          })
+        }
+      });
+    }
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-  
+  titleInput: function(e) {
+    this.setData({
+      title: e.detail.value
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-  
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-  
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-  
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-  
+  contentInput: function(e) {
+    this.setData({
+      content: e.detail.value
+    })
   }
 })

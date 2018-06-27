@@ -3,11 +3,11 @@
   <view class="box">
     <view class="box-item">
       <text>1、您的问题</text>
-      <textarea placeholder="在此输入您的问题" placeholder-class="plt" />
+      <textarea placeholder="在此输入您的问题" placeholder-class="plt" bindconfirm="titleInput" bindinput="titleInput" />
     </view>
     <view class="box-item">
       <text>2、症状描述</text>
-      <textarea placeholder="请描述一下您的症状" placeholder-class="plt" />
+      <textarea placeholder="请描述一下您的症状" placeholder-class="plt" bindConfirm="contentInput" bindinput="contentInput" />
     </view>
     <view class="box-item">
       <view class="image-list">
@@ -15,5 +15,5 @@
       <button><image src="/assets/help/camera.png" />点击上传图片，最多上传5张</button>
     </view>
   </view>
-  <navigator class="submit" url="/pages/help/contact/index">开始咨询</navigator>
+  <button class="submit" bindtap="startConsult">开始咨询</button>
 </scroll-view>

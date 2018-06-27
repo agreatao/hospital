@@ -1,4 +1,4 @@
-<view class="doctor">
+<navigator class="doctor" url="/pages/help/contact/index?ID={{obj['咨询流水ID']}}">
   <view class="info">
     <image src="{{obj['头像']}}"></image>
     <view class="text-info">
@@ -14,7 +14,7 @@
     </view>
   </view>
   <text class="time">到期时间：{{obj['结束时间']}}</text>
-</view>
+</navigator>
 <view class="reply-container">
   <view class="reply">
     <text>最新回复：<text>{{obj['最新回复']}}</text></text>
