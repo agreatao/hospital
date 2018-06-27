@@ -30,13 +30,14 @@
         <image class='arrow' src='../../assets/arrow_info2.png'></image>
     </navigator>
   </view>
-  <view class='list' style='height:194rpx;'>
+  <view class='list'>
     <navigator class='item' url='door/index' hover-class="none">
         <image class='info_icon' src='../../assets/door.png'></image>
         <text>门诊充值</text>
         <image class='arrow' src='../../assets/arrow_info2.png'></image>
     </navigator>
-    <navigator class='item'url='room/index' hover-class="none">
+    <navigator class='item'url='room/index?payment={{payment}}&cardidzy={{cardidzy}}&patientId={{patientId}}' 
+    hover-class="none" hidden='{{isZy}}'>
         <image class='info_icon' src='../../assets/home.png'></image>
         <text>住院充值</text>
         <image class='arrow' src='../../assets/arrow_info2.png'></image>

@@ -71,15 +71,15 @@ page{
 }
 .list{
   width: 750rpx;
-  height: 387rpx;
-  background: #fff;
+  /* height: 387rpx; */
   margin-top: 20rpx;
 }
 .list .item{
   width: 750rpx;
   height: 96rpx;
   border-bottom: 1rpx solid #F1F2F6;
-  margin-left: 100rpx;
+  padding-left: 100rpx; 
+  background: #fff;
 }
 .list .item image{
   width: 48rpx;

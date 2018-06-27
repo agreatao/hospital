@@ -19,3 +19,46 @@ page{
 .doctor{
   background: #fff;
 }
+.lary{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index: 99;
+}
+.win{
+ width:562rpx;
+height:258rpx;
+background:rgba(255,255,255,1);
+border-radius:10rpx;
+  margin:0 auto;
+  margin-top:400rpx;
+}
+.content{
+  width: 100%;
+  height: 170rpx;
+  border-bottom: 1px solid rgba(214,214,214,1);
+  text-align: center;
+  line-height: 170rpx;
+  font-size: 36rpx;
+}
+.btns{
+  display: flex;
+  flex-direction: row; 
+}
+.btns button{
+  flex: 1;
+  font-size: 36rpx;
+  line-height: 87rpx;
+  background: #fff;
+  height: 87rpx;
+}
+.nofocus{
+  color: #A3ACBF;
+  border-right: 1px solid rgba(214,214,214,1);
+}
+.goonfocus{
+  color: #FF4F29;
+}
