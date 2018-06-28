@@ -15,8 +15,9 @@
     <message list-data="{{list}}" />
   </view>
 </scroll-view>
-<view class="fix-bottom" wx:if="{{onContact}}">
+<view class="fix-bottom on-contact" wx:if="{{onContact}}">
   <input placeholder="请输入内容" placeholder-class="pl" bindconfirm="askInputConfirm" value="{{inputValue}}" />
+  <image src="/assets/help/enter.png" class="enter-btn" bindtap="askInputConfirm" />
 </view>
 <view class="fix-bottom complete" wx:else>
   <navigator url="/pages/help/evaluate/index?ID={{obj['咨询流水ID']}}">咨询已完成，您还满意？<text>点击评价</text></navigator>
