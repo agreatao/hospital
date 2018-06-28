@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/login/index",
     "pages/appoint/index",
     "pages/feature/index",
     "pages/help/index",

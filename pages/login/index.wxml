@@ -1,0 +1,23 @@
+<!--pages/login/index.wxml-->
+<image class='bg' src='../../assets/login/login_bg.png'></image>
+<view class='content'>
+    <text class='yhd'>用户端</text>
+    <image class='logo' src='../../assets/login/logo.png'></image>
+    <view class='appname'>独医通</view>
+    <view class="login-from">
+        <!--账号-->
+        <view class="inputView">
+          <image class="inputImage" src="../../assets/login/login_account.png"></image>
+           <input class="inputText" placeholder="请输入身份证号" bindinput="phoneInput" /> 
+        </view>
+        <!--密码-->
+        <view class="inputView">
+          <image class="inputImage" src="../../assets/login/login_pw.png"></image>
+           <input class="inputText" password="true" placeholder="请输入密码" bindinput="passwordInput" /> 
+        </view>
+        <!--按钮-->
+         <button class="loginBtn"  loading="{{loading}}" bindtap="login">登录</button>
+         <view class='forget'>忘记密码?</view>
+    </view>  
+</view>
+

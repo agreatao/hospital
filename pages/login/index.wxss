@@ -1,0 +1,97 @@
+/* pages/login/index.wxss */
+  page{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .bg{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.2);
+  }
+  .content{
+    position: absolute;
+    left:40rpx;
+    top:18rpx;
+    width:670rpx;
+    height:1134rpx;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 8px 18px 0px rgba(0,0,0,0.16);
+    border-radius:12rpx;
+  }
+.yhd{
+  font-size:28rpx;
+  font-family:PingFangSC-Regular;
+  color:rgba(30,138,209,1);
+  line-height:40rpx;
+  float: right;
+  margin-right: 18rpx;
+  margin-top: 18rpx;
+}
+.logo{
+  display: block;
+  width: 150rpx;
+  height: 150rpx;
+  margin: 0 auto;
+  margin-top: 64rpx;
+}
+.appname{
+  font-size:96rpx;
+  font-family:DFPZongYiW7;
+  color:rgba(0,159,233,1);
+  line-height:96rpx;
+  letter-spacing:60rpx;
+  font-weight: bolder; 
+  text-align: center;
+  margin-top: 48rpx;
+  margin-left: 60rpx;
+}
+.login-from{
+  margin-top: 120rpx;
+}
+.inputView{
+  width:602rpx;
+  height:88rpx;
+  background:rgba(255,255,255,1);
+  border-radius:8px;
+  border:1px solid rgba(198,198,198,1);
+  margin: 0 auto;
+  margin-top: 50rpx;
+}
+.inputImage{
+  width: 48rpx;
+  height: 48rpx;
+  float: left;
+  margin-top: 20rpx;
+  margin-left: 24rpx;
+}
+.inputText{
+  width: 500rpx;
+  height: 68rpx;
+  float: left;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+  font-size: 28rpx;
+}
+.loginBtn{
+  width:602rpx;
+  height:88rpx;
+  background:rgba(0,159,233,1);
+  border-radius:8px;
+  text-align: center;
+  line-height: 88rpx;
+  font-size: 32rpx;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 50rpx;
+}
+.forget{
+  font-size:28rpx;
+  font-family:PingFangSC-Regular;
+  color:rgba(0,159,233,1);
+  line-height:40rpx;
+  margin: 0 auto;
+  margin-top: 28rpx;
+  text-align: center;
+}
