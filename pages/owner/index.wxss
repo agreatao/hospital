@@ -78,14 +78,14 @@ page{
   width: 750rpx;
   height: 96rpx;
   border-bottom: 1rpx solid #F1F2F6;
-  padding-left: 100rpx; 
+  /* padding-left: 100rpx;  */
   background: #fff;
 }
 .list .item image{
   width: 48rpx;
   height: 48rpx;
   float: left;
-  margin-left: -80rpx;
+  margin-left: 35rpx;
   margin-top: 24rpx;
 }
 .list .item text{
@@ -93,11 +93,12 @@ page{
   font-size: 32rpx;
   color: #222529;
   float: left;
+  margin-left: 20rpx;
 }
 .list .item .arrow{
   width: 21rpx;
   height: 24rpx;
   float: right;
-  margin-right: 130rpx;
+  margin-right: 30rpx;
   margin-top: 36rpx
 }

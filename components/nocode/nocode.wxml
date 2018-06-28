@@ -1,0 +1,3 @@
+<!--components/nocode/nocode.wxml-->
+<image src='../../assets/noCode.png'></image>
+<view>正在开发中，敬请期待...</view>
