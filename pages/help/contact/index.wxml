@@ -1,4 +1,4 @@
-<scroll-view class="contact">
+<scroll-view class="contact {{!onContact ? 'complete-top' : ''}}">
   <view class="doctor">
     <image src="{{obj['头像']}}" />
     <view class="info">
@@ -12,15 +12,13 @@
   </view>
   <text class="time">咨询到期时间：{{obj['结束时间']}}</text>
   <view class="content">
-    <view wx:for="{{list}}" wx:key="unique">
-      <message obj="{{item}}"/>
-    </view>
+    <message list-data="{{list}}" />
   </view>
 </scroll-view>
 <view class="fix-bottom" wx:if="{{onContact}}">
-  <input placeholder="请输入内容" placeholder-class="pl" bindconfirm="askInputConfirm" />
+  <input placeholder="请输入内容" placeholder-class="pl" bindconfirm="askInputConfirm" value="{{inputValue}}" />
 </view>
-<view class="fix-bottom" wx:else>
-    <button>咨询已完成，您还满意？<text>点击评价</text></button>
+<view class="fix-bottom complete" wx:else>
+  <navigator url="/pages/help/evaluate/index?ID={{obj['咨询流水ID']}}">咨询已完成，您还满意？<text>点击评价</text></navigator>
   <button><image src="/assets/help/export-grey.png" />导出咨询记录</button>
 </view>

@@ -3,6 +3,7 @@
   "navigationBarTextStyle": "white",
   "navigationBarTitleText": "咨询",
   "usingComponents": {
-    "message": "/components/messageItem/index"
+    "message": "/components/messageItem/index",
+    "follow": "/components/followButton/index"
   }
 }

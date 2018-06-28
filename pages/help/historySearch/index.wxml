@@ -1,5 +1,5 @@
 <view wx:for="{{list}}" wx:key="unique">
-  <navigator class="doctor" url="/pages/help/historyRecord/index?ID={{item['咨询流水ID']}}">
+  <navigator class="doctor" hover-class="none" url="/pages/help/historyRecord/index?ID={{item['咨询流水ID']}}">
     <view class="info">
       <image src="{{item['头像']}}" />
       <view class="text-info">

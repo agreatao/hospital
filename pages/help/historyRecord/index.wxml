@@ -1,4 +1,4 @@
-<scroll-view>
+<scroll-view class="record-container">
   <view class="doctor">
     <image src="{{obj['头像']}}" />
     <view class="info">
@@ -12,11 +12,9 @@
   </view>
   <text class="time">咨询到期时间：{{obj['结束时间']}}</text>
   <view class="content">
-    <view wx:for="{{list}}" wx:key="unique">
-      <message obj="{{item}}"/>
-    </view>
+    <message list-data="{{list}}" />
   </view>
 </scroll-view>
 <view class="fix-bottom">
-  <button class="export"><image src="/assets/help/export.png" />导出此咨询记录</button>
+  <button class="export" hover-class="none"><image src="/assets/help/export.png" />导出此咨询记录</button>
 </view>

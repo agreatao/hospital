@@ -12,8 +12,8 @@
     <view class="box-item">
       <view class="image-list">
       </view>
-      <button><image src="/assets/help/camera.png" />点击上传图片，最多上传5张</button>
+      <button><image src="/assets/help/camera.png" hover-class="none"/>点击上传图片，最多上传5张</button>
     </view>
   </view>
-  <button class="submit" bindtap="startConsult">开始咨询</button>
+  <button class="submit" bindtap="startConsult" hover-class="none">开始咨询</button>
 </scroll-view>
