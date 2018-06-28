@@ -74,12 +74,6 @@ page {
   text-align: center;
 }
 
-.fix-bottom input {
-  padding: 10px;
-  font-size: 32rpx;
-  color: #555;
-}
-
 .complete {
   background-color: #f5f5f5;
 }
@@ -107,3 +101,21 @@ page {
   margin-right: 15px;
 }
 
+.on-contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.on-contact input {
+  padding: 10px;
+  font-size: 32rpx;
+  color: #555;
+  flex: 1;
+}
+
+.enter-btn {
+  width: 17px;
+  height: 12px;
+}
