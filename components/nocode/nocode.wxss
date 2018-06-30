@@ -1,19 +1,19 @@
-/* components/nocode/nocode.wxss */
-/* pages/owner/index.wxss */
-page{
-  width: 750rpx;
-  background: #F1F2F6;
+page {
+    width: 750rpx;
+    background: #f1f2f6;
 }
-image{
-  display: block;
-  width: 290rpx;
-  height: 255rpx;
-  margin: 0 auto;
-  margin-top: 250rpx;
+
+image {
+    display: block;
+    width: 290rpx;
+    height: 255rpx;
+    margin: 0 auto;
+    margin-top: 250rpx;
 }
-view{
-  text-align: center;
-  font-size: 32rpx;
-  color: #b6b7b8;
-  margin-top: 50rpx;
+
+view {
+    text-align: center;
+    font-size: 32rpx;
+    color: #b6b7b8;
+    margin-top: 50rpx;
 }

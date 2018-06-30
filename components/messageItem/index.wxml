@@ -1,8 +1,12 @@
-<view wx:for="{{listData}}"
-      wx:key="unique"
-      class="who-{{item['留言对象']}}"
-      longpress="longpress"
-      data-id="{{item['留言ID']}}" data-sfzh="{{item['留言人ID']}}" data-index="{{index}}">
-  <image src="{{item['头像']}}" />
-  <text>{{item['内容']}}</text>
+<view
+    class="who-{{item['留言对象']}}"
+    longpress="longpress"
+    wx:for="{{listData}}"
+    wx:key="unique"
+    data-id="{{item['留言ID']}}"
+    data-sfzh="{{item['留言人ID']}}"
+    data-index="{{index}}"
+>
+    <image src="{{item['头像']}}" />
+    <text>{{item['内容']}}</text>
 </view>

@@ -1,1 +1,4 @@
-<button bindtap="change" hover-class="none"><image src="{{image}}" wx:if="{{!isFollow}}" />{{isFollow ? '已关注' : '关注'}}</button>
+<button bindtap="change" hover-class="none">
+    <image src="{{image}}" wx:if="{{!isFollow}}" />
+    {{isFollow ? '已关注' : '关注'}}
+</button>

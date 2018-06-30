@@ -1,5 +1,5 @@
 Component({
-  properties: {
-    obj: Object
-  }
+    properties: {
+        obj: Object
+    }
 })

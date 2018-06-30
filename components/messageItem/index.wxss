@@ -1,61 +1,60 @@
 .who-H, .who-Y {
-  display: flex;
-  align-items: center;
-  margin: 15px 0;
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
 }
 
 .who-H image, .who-Y image {
-  display: block;
-  width: 100rpx;
-  height: 100rpx;
-  border-radius: 50%;
+    display: block;
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
 }
 
 .who-H text, .who-Y text {
-  max-width: 400rpx;
-  display: inline-block;
-  align-items: center;
-  padding: 20rpx 40rpx;
-  border-radius: 5px;
-  position: relative;
-  font-size: 32rpx;
+    max-width: 400rpx;
+    display: inline-block;
+    align-items: center;
+    padding: 20rpx 40rpx;
+    border-radius: 5px;
+    position: relative;
+    font-size: 32rpx;
 }
 
 .who-H text::before, .who-Y text::before {
-  display: block;
-  content: " ";
-  border: 5px solid transparent;
-  position: absolute;
-  top: 50%;
-  margin-top: -5px;
+    display: block;
+    content: " ";
+    border: 5px solid transparent;
+    position: absolute;
+    top: 50%;
+    margin-top: -5px;
 }
 
 .who-Y {
-  flex-direction: row;
+    flex-direction: row;
 }
 
 .who-Y text {
-  background-color: #fff;
-  margin-left: 8px;
+    background-color: #fff;
+    margin-left: 8px;
 }
 
 .who-Y text::before {
-  border-right-color: #ffffff;
-  left: -10px;
+    border-right-color: #fff;
+    left: -10px;
 }
 
 .who-H {
-  flex-direction: row-reverse;
+    flex-direction: row-reverse;
 }
 
 .who-H text {
-  background-color: #007AFF;
-  color: #fff;
-  margin-right: 8px;
+    background-color: #007aff;
+    color: #fff;
+    margin-right: 8px;
 }
 
-
 .who-H text::before {
-  border-left-color: #007AFF;
-  right: -10px;
+    border-left-color: #007aff;
+    right: -10px;
 }

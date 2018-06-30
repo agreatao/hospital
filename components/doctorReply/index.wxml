@@ -1,24 +1,24 @@
-<navigator class="doctor" url="/pages/help/contact/index?ID={{obj['咨询流水ID']}}" hover-class="none">
-  <view class="info">
-    <image src="{{obj['头像']}}"></image>
-    <view class="text-info">
-      <text class="name">{{obj['姓名']}}</text>
-      <view class="base">
-        <text>{{obj['职称']}}</text>
-        <text class="right">咨询人次： <text>{{obj['咨询人次'] || 0}}次</text></text>
-      </view>
-      <view class="base">
-        <text>{{obj['科室']}}</text>
-        <text class="right">好评率： <text>{{obj['好评率'] || 0}}%</text></text>
-      </view>
+<navigator class="doctor" hover-class="none" url="/pages/help/contact/index?ID={{obj['咨询流水ID']}}">
+    <view class="info">
+        <image src="{{obj['头像']}}"></image>
+        <view class="text-info">
+            <text class="name">{{obj['姓名']}}</text>
+            <view class="base">
+                <text>{{obj['职称']}}</text>
+                <text class="right">咨询人次： <text>{{obj['咨询人次'] || 0}}次</text></text>
+            </view>
+            <view class="base">
+                <text>{{obj['科室']}}</text>
+                <text class="right">好评率： <text>{{obj['好评率'] || 0}}%</text></text>
+            </view>
+        </view>
     </view>
-  </view>
-  <text class="time">到期时间：{{obj['结束时间']}}</text>
+    <text class="time">到期时间：{{obj['结束时间']}}</text>
 </navigator>
 <view class="reply-container">
-  <view class="reply">
-    <text>最新回复：</text>
-    <text class="content">{{obj['最新回复']}}</text>
-    <image src="/assets/arrow-right.png" />
-  </view>
+    <view class="reply">
+        <text>最新回复：</text>
+        <text class="content">{{obj['最新回复']}}</text>
+        <image src="/assets/arrow-right.png" />
+    </view>
 </view>

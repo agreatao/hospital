@@ -1,95 +1,95 @@
 .doctor {
-  display: flex;
-  flex-direction: column;
-  background-color: #F4F6F9;
-  padding: 25rpx 25rpx 50rpx 25rpx;
-  border-radius: 8rpx;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f6f9;
+    padding: 25rpx 25rpx 50rpx 25rpx;
+    border-radius: 8rpx;
 }
 
 .info {
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #EFEFEF;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #efefef;
 }
 
 .info image {
-  width: 75px;
-  height: 90px;
+    width: 75px;
+    height: 90px;
 }
 
 .text-info {
-  margin-left: 15px;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  padding-top: 5px;
+    margin-left: 15px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-top: 5px;
 }
 
 .text-info .name {
-  font-size: 20px;
-  font-weight: 600;
-  color: #222529;
-  margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #222529;
+    margin-bottom: 15px;
 }
 
 .text-info .base {
-  font-size: 28rpx;
-  color: #55585D;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 5px;
+    font-size: 28rpx;
+    color: #55585d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
 }
 
 .base .right {
-  color: #868FA0;
+    color: #868fa0;
 }
 
 .base .right text {
-  color: #FF4F29;
+    color: #ff4f29;
 }
 
 .time {
-  padding: 10px 2px;
-  font-size: 14px;
-  color: #868FA0;
+    padding: 10px 2px;
+    font-size: 14px;
+    color: #868fa0;
 }
 
 .reply-container {
-  padding: 10px;
-  margin-top: -30px;
+    padding: 10px;
+    margin-top: -30px;
 }
 
 .reply {
-  padding: 15px 12px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 18px;
-  background-color: #fff;
-  border-radius: 8rpx;
-  box-shadow: 0px 2px 8px 0 #DBDBDB;
+    padding: 15px 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 8rpx;
+    box-shadow: 0px 2px 8px 0 #dbdbdb;
 }
 
 .reply text {
-  font-size: 32rpx;
-  color: #FF4F29;
+    font-size: 32rpx;
+    color: #ff4f29;
 }
 
 .reply text.content {
-  flex: 1;
-  color: #868FA0;
-  display: -webkit-box;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  word-break: break-all;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1; 
+    flex: 1;
+    color: #868fa0;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
 }
 
 .reply image {
-  width: 15px;
-  height: 15px;
+    width: 15px;
+    height: 15px;
 }

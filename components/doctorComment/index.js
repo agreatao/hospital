@@ -1,5 +1,5 @@
 Component({
-  properties: {
-    listData: Array
-  }
+    properties: {
+        listData: Array
+    }
 })

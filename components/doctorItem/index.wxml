@@ -1,17 +1,17 @@
-<navigator class="doctor" url="/pages/help/doctor/index?ID={{obj['医生ID']}}" hover-class="none">
-  <view class="info">
-    <image src="{{obj['头像']}}" />
-    <view class="text-info">
-      <text class="name">{{obj['姓名']}}</text>
-      <view class="base">
-        <text>{{obj['职称']}}</text>
-        <text class="right">咨询人次： <text>{{obj['咨询人次'] || 0}}次</text></text>
-      </view>
-      <view class="base">
-        <text>{{obj['科室']}}</text>
-        <text class="right">好评率： <text>{{obj['好评率'] || 0}}%</text></text>
-      </view>
+<navigator class="doctor" hover-class="none" url="/pages/help/doctor/index?ID={{obj['医生ID']}}">
+    <view class="info">
+        <image src="{{obj['头像']}}" />
+        <view class="text-info">
+            <text class="name">{{obj['姓名']}}</text>
+            <view class="base">
+                <text>{{obj['职称']}}</text>
+                <text class="right">咨询人次： <text>{{obj['咨询人次'] || 0}}次</text></text>
+            </view>
+            <view class="base">
+                <text>{{obj['科室']}}</text>
+                <text class="right">好评率： <text>{{obj['好评率'] || 0}}%</text></text>
+            </view>
+        </view>
     </view>
-  </view>
-  <text class="major">擅长：{{obj['擅长']}}</text>
+    <text class="major">擅长：{{obj['擅长']}}</text>
 </navigator>

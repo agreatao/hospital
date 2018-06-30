@@ -1,8 +1,8 @@
 <view class="comment" wx:for="{{listData}}" wx:key="unique">
-  <view class="user-info">
-    <image src="{{item['头像']}}" />
-    <text>{{item['评价人']}}</text>
-    <text>{{item['得分']}}分</text>
-  </view>
-  <text class="content">{{item['内容']}}</text>
+    <view class="user">
+        <image src="{{item['头像']}}" />
+        <text class="name">{{item['评价人']}}</text>
+        <text class="point">{{item['得分']}}分</text>
+    </view>
+    <text class="content">{{item['内容']}}</text>
 </view>

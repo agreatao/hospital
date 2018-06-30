@@ -1,65 +1,65 @@
 .doctor {
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
-  margin-bottom: 50rpx;
-  padding: 25rpx;
-  border-radius: 8rpx;
-  position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-bottom: 50rpx;
+    padding: 25rpx;
+    border-radius: 8rpx;
+    position: relative;
 }
 
 .info {
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #EFEFEF;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #efefef;
 }
 
 .info image {
-  width: 75px;
-  height: 90px;
+    width: 75px;
+    height: 90px;
 }
 
 .text-info {
-  margin-left: 15px;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  padding-top: 5px;
+    margin-left: 15px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-top: 5px;
 }
 
 .text-info .name {
-  font-size: 20px;
-  font-weight: 600;
-  color: #222529;
-  margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #222529;
+    margin-bottom: 15px;
 }
 
 .text-info .base {
-  font-size: 28rpx;
-  color: #55585D;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 5px;
+    font-size: 28rpx;
+    color: #55585d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
 }
 
 .base .right {
-  color: #868FA0;
+    color: #868fa0;
 }
 
 .base .right text {
-  color: #FF4F29;
+    color: #ff4f29;
 }
 
 .major {
-  display: -webkit-box;
-  margin-top: 10px;
-  font-size: 30rpx;
-  color: #A3ACBF;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  word-break: break-all;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp:2; 
+    display: -webkit-box;
+    margin-top: 10px;
+    font-size: 30rpx;
+    color: #a3acbf;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
 }
