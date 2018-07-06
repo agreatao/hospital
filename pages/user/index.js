@@ -2,7 +2,7 @@ Page({
     data: {
         obj: null,
         sfz: '',
-        isZy: true,
+        isZy: "none",
         payment: null,
         cardidzy: null,
         patientId: null
@@ -26,7 +26,7 @@ Page({
                 console.log(JSON.parse(JSON.parse(res.data).d))
                 if (JSON.parse(JSON.parse(res.data).d).length > 0) {
                     this.setData({
-                        isZy: '',
+                        isZy: 'block',
                         payment: JSON.parse(JSON.parse(res.data).d)[0].PREPAYMENTS,
                         cardidzy: JSON.parse(JSON.parse(res.data).d)[0].CARDID,
                         patientId: JSON.parse(JSON.parse(res.data).d)[0].INP_NO

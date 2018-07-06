@@ -98,6 +98,7 @@ page {
 }
 
 .login_out {
+    display: block;
     width: 690rpx;
     height: 88rpx;
     background: rgba(255, 79, 41, 1);
