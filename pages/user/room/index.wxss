@@ -1,0 +1,94 @@
+page {
+    width: 750rpx;
+    background: #f1f2f6;
+}
+
+.recharge {
+    display: flex;
+    flex-direction: column;
+    padding: 40rpx;
+    padding-bottom: 15rpx;
+    background: #fff;
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 20rpx;
+}
+
+.title {
+    font-size: 28rpx;
+    font-family: PingFangSC-Regular;
+    color: #222529;
+}
+
+.inmy {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40rpx;
+}
+
+.inmy text {
+    font-size: 40rpx;
+    color: #41474e;
+    line-height: 100rpx;
+}
+
+.inmy input {
+    display: inline-block;
+    width: 550rpx;
+    height: 82rpx;
+    font-size: 68rpx;
+}
+
+.inmy image {
+    width: 28rpx;
+    height: 28rpx;
+    margin-top: 40rpx;
+}
+
+.sure {
+    width: 690rpx;
+    height: 88rpx;
+    background: #e0e0e0;
+    border-radius: 10rpx;
+    font-size: 36rpx;
+    font-family: PingFangSC-Regular;
+    color: rgba(255, 255, 255, 1);
+    line-height: 88rpx;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40rpx;
+}
+
+.blue {
+    background: #1b67ff;
+}
+
+.left_money {
+    width: 682rpx;
+    height: 192rpx;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 20rpx;
+    text-align: center;
+}
+
+.left_money .tip {
+    display: block;
+    color: #868fa0;
+    font-size: 28rpx;
+    padding-top: 35rpx;
+}
+
+.left_money .money {
+    color: #ff4f29;
+    font-size: 72rpx;
+    line-height: 135rpx;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}

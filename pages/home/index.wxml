@@ -1,0 +1,44 @@
+<scroll-view>
+    <image class="ad" src="" />
+    <view class="nav-btn">
+        <navigator url="/pages/appoint/index" open-type="switchTab">
+            <image src="" />
+            <text>预约服务</text>
+        </navigator>
+        <navigator url="/pages/service/index" open-type="switchTab">
+            <image src="" />
+            <text>便民服务</text>
+        </navigator>
+        <navigator url="/pages/consult/index" open-type="switchTab">
+            <image src="" />
+            <text>医生咨询</text>
+        </navigator>
+        <navigator url="/pages/feature/index" open-type="switchTab">
+            <image src="" />
+            <text>特色服务</text>
+        </navigator>
+    </view>
+    <view class="notice">
+        <image src="" />
+        <text>内容</text>
+    </view>
+    <view class="user-container">
+        <text class="title">个人中心</text>
+        <view class="box">
+            <button class="user">
+                <image src="" />
+                <view class="">
+                    <text>姓名</text>
+                    <text>地址</text>
+                </view>
+                <image src="/assets/arrow-right.png" />
+            </button>
+        </view>
+    </view>
+    <view class="consult-container">
+        <text class="title">最近咨询</text>
+        <view class="doctors">
+            <doctor list-data="{{list}}" />
+        </view>
+    </view>
+</scroll-view>

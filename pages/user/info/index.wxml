@@ -1,0 +1,58 @@
+<scroll-view class="container">
+    <view class='list'>
+        <navigator class='item head_info' hover-class="none">
+            <text class='wtinfo'>头像</text>
+            <image class='arrow' src='/assets/arrow_info2.png'></image>
+            <image class='head' src="{{obj['头像']}}"></image>
+        </navigator>
+        <navigator class='item' hover-class="none">
+            <text class='wtinfo'>昵称</text>
+            <image class='arrow' src='/assets/arrow_info2.png'></image>
+            <text class='asinfo'>{{obj['昵称']}}</text>
+        </navigator>
+    </view>
+    <view class='list list2'>
+        <navigator class='item' hover-class="none">
+            <text class='wtinfo'>姓名</text>
+            <text class='asinfo'>{{obj['真实姓名']}}</text>
+        </navigator>
+        <navigator class='item' hover-class="none">
+            <text class='wtinfo'>性别</text>
+            <text class='asinfo'>{{obj['性别']}}</text>
+        </navigator>
+        <navigator class='item' hover-class="none">
+            <text class='wtinfo'>身份证号</text>
+            <text class='asinfo'>{{sfz}}</text>
+        </navigator>
+    </view>
+    <view class='list list3'>
+        <navigator class='item' hover-class="none">
+            <text class='wtinfo'>工作单位</text>
+            <image class='arrow' src='/assets/arrow_info2.png'></image>
+            <text class='asinfo'>{{obj['工作单位']}}</text>
+        </navigator>
+        <navigator class='item' hover-class="none">
+            <text class='wtinfo'>职业</text>
+            <image class='arrow' src='/assets/arrow_info2.png'></image>
+            <text class='asinfo'>{{obj['职业']}}</text>
+        </navigator>
+    </view>
+    <view class='list list4'>
+        <navigator class='item' hover-class="none">
+            <text class='wtinfo'>电话</text>
+            <image class='arrow' src='/assets/arrow_info2.png'></image>
+            <text class='asinfo'>{{obj['联系电话']}}</text>
+        </navigator>
+        <navigator class='item' hover-class="none">
+            <text class='wtinfo'>EMAIL</text>
+            <image class='arrow' src='/assets/arrow_info2.png'></image>
+            <text class='asinfo'>{{obj['EMAIL']}}</text>
+        </navigator>
+        <navigator class='item' hover-class="none">
+            <text class='wtinfo'>密码修改</text>
+            <image class='arrow' src='/assets/arrow_info2.png'></image>
+            <text class='asinfo'>......</text>
+        </navigator>
+    </view>
+    <button class='login_out'>退出登录</button>
+</scroll-view>

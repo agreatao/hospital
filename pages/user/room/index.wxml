@@ -1,0 +1,13 @@
+<view class='left_money'>
+    <text class='tip'>当前住院余额</text>
+    <text class='money'>{{prpayment}}</text>
+</view>
+<view class="recharge">
+    <view class='title'>充值金额(元)</view>
+    <view class='inmy'>
+        <text>￥</text>
+        <input type="digit" value="{{inputValue}}" bindinput="listenerInput"></input>
+        <image src='/assets/clear.png' class="hide {{clearShow?'show':''}}" bindtap="clearInput"></image>
+    </view>
+</view>
+<button class="sure {{buttonClick==true ? 'blue' : ''}}" disabled='{{disable}}' data-cardId='{{cardid}}' data-money='{{inputValue}}' data-patientId="{{patientId}}" bindtap="pushMoney">确定充值</button>

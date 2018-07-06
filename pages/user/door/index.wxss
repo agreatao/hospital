@@ -1,0 +1,42 @@
+page {
+    width: 750rpx;
+    background: #f1f2f6;
+}
+
+.container {
+    padding: 5px 10px;
+}
+
+.card {
+    background-color: #fff;
+    margin-top: 34rpx;
+    padding: 50rpx;
+    border-radius: 8rpx;
+    position: relative;
+    color: #fff;
+    background: linear-gradient(177.2deg, rgba(255, 96, 0, 1), rgba(255, 66, 43, 1));
+    font-size: 24rpx;
+}
+
+.card .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.left_money {
+    font-size: 60rpx;
+}
+
+.recharge {
+    width: 200rpx;
+    height: 64rpx;
+    border-radius: 8rpx;
+    border: 1rpx solid #fff;
+    line-height: 64rpx;
+    font-size: 34rpx;
+    color: #fff;
+    text-align: center;
+    margin-left: 100rpx;
+    margin-top: -100rpx;
+    float: right;
+}

@@ -1,0 +1,44 @@
+<!--pages/owner/index.wxml-->
+<view class='owner'>
+    <image class='bg' src='/assets/my_bg.png'></image>
+    <image class='head' src="{{obj['头像']}}"></image>
+    <text class='name'>{{obj['真实姓名']}}</text>
+    <text class='cardCode'>{{sfz}}</text>
+    <image class='set' src='/assets/my_set.png'></image>
+    <image class='msg' src='/assets/my_msg.png'></image>
+    <view class='msgCount'>11</view>
+</view>
+<view class='list'>
+    <navigator class='item' url="info/index" hover-class="none">
+        <image class='info_icon' src='/assets/info.png'></image>
+        <text>个人信息</text>
+        <image class='arrow' src='/assets/arrow_info2.png'></image>
+    </navigator>
+    <navigator class='item' url="report/index" hover-class="none">
+        <image class='info_icon' src='/assets/report.png'></image>
+        <text>报告查询</text>
+        <image class='arrow' src='/assets/arrow_info2.png'></image>
+    </navigator>
+    <navigator class='item' hover-class="none">
+        <image class='info_icon' src='/assets/history.png'></image>
+        <text>历史咨询</text>
+        <image class='arrow' src='/assets/arrow_info2.png'></image>
+    </navigator>
+    <navigator class='item' url="love/index" hover-class="none">
+        <image class='info_icon' src='/assets/love.png'></image>
+        <text>我的关注</text>
+        <image class='arrow' src='/assets/arrow_info2.png'></image>
+    </navigator>
+</view>
+<view class='list'>
+    <navigator class='item' url='door/index' hover-class="none">
+        <image class='info_icon' src='/assets/door.png'></image>
+        <text>门诊充值</text>
+        <image class='arrow' src='/assets/arrow_info2.png'></image>
+    </navigator>
+    <navigator class='item' url='room/index?payment={{payment}}&cardidzy={{cardidzy}}&patientId={{patientId}}' hover-class="none" hidden='{{isZy}}'>
+        <image class='info_icon' src='/assets/home.png'></image>
+        <text>住院充值</text>
+        <image class='arrow' src='/assets/arrow_info2.png'></image>
+    </navigator>
+</view>

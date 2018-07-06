@@ -2,7 +2,7 @@
     hover-class="none"
     wx:for="{{listData}}"
     wx:key="unique"
-    url="/pages/help/contact/index?ID={{item['咨询流水ID']}}">
+    url="/pages/consult/contact/index?ID={{item['咨询流水ID']}}">
     <view class="doctor">
         <view class="info">
             <image src="{{item['头像']}}"></image>

@@ -11,7 +11,7 @@ Component({
         },
         navTo: function(e) {
             wx.navigateTo({
-                url: "/pages/help/doctor/index?ID=" + e.target.dataset.id
+                url: "/pages/consult/doctor/index?ID=" + e.target.dataset.id
             })
         }
     }

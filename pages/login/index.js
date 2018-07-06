@@ -5,7 +5,6 @@ Page({
         cardId: '',
         password: ''
     },
-
     // 获取输入账号
     usernameInput: function(e) {
         this.setData({
@@ -42,7 +41,6 @@ Page({
                 method: "POST",
                 dataType: "JSON",
                 success: (res) => {
-                    console.log(res);
                     if (JSON.parse(JSON.parse(res.data).d)) {
                         wx.request({
                             url: "https://www.dszejt.com/ws/ws_xcx.asmx/GetEjtUserData",
@@ -54,10 +52,9 @@ Page({
                             dataType: "JSON",
                             success: (res) => {
                                 app.globalData.userinfo = JSON.parse(JSON.parse(res.data).d)[0];
-                                wx.switchTab({
-                                    url: '../appoint/index'
+                                wx.navigateTo({
+                                    url: "/pages/home/index"
                                 })
-                                console.log(app.globalData.userinfo);
                             }
                         })
                     } else {

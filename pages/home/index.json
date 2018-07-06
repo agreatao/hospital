@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+        "doctor": "/components/doctorReply/index"
+    }
+}

@@ -1,0 +1,26 @@
+<scroll-view>
+    <view class="top-btn">
+        <navigator class="btn" url="search/index" hover-class="none">
+            <image src="/assets/consult/search.png" />
+            <text>查找医生</text>
+        </navigator>
+        <navigator class="btn" hover-class="none">
+            <image src="/assets/consult/code.png" />
+            <text>扫一扫</text>
+        </navigator>
+        <navigator class="btn" url="historySearch/index" hover-class="none">
+            <image src="/assets/consult/history.png" />
+            <text>历史查询</text>
+        </navigator>
+        <navigator class="btn" hover-class="none">
+            <image src="/assets/consult/more.png" />
+            <text>更多</text>
+        </navigator>
+    </view>
+    <view class="recent">
+        <text class="title">最近咨询</text>
+        <view class="doctors">
+            <doctor list-data="{{list}}" />
+        </view>
+    </view>
+</scroll-view>

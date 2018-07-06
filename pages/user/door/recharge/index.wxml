@@ -1,0 +1,9 @@
+<view class="recharge">
+    <view class='title'>充值金额(元)</view>
+    <view class='inmy'>
+        <text>￥</text>
+        <input type="digit" name="money" value="{{inputValue}}" bindinput="listenerInput"></input>
+        <image src='/assets/clear.png' class="hide {{clearShow?'show':''}}" bindtap="clearInput"></image>
+    </view>
+</view>
+<button class="sure {{buttonClick==true ? 'blue' : ''}}" disabled='{{disable}}' bindtap="pushMoney" data-money='{{inputValue}}' data-cardid='{{cardId}}'>确定充值</button>
