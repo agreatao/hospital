@@ -36,7 +36,7 @@
         <text>门诊充值</text>
         <image class='arrow' src='/assets/arrow_info2.png'></image>
     </navigator>
-    <navigator class='item' url='room/index?payment={{payment}}&cardidzy={{cardidzy}}&patientId={{patientId}}' hover-class="none" hidden='{{isZy}}'>
+    <navigator class='item' url='room/index?payment={{payment}}&cardidzy={{cardidzy}}&patientId={{patientId}}' hover-class="none"  style='display:{{isZy}}'>
         <image class='info_icon' src='/assets/home.png'></image>
         <text>住院充值</text>
         <image class='arrow' src='/assets/arrow_info2.png'></image>
