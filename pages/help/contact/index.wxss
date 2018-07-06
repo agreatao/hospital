@@ -1,121 +1,125 @@
 page {
-  background-color: #f5f5f5;
-}
-
-.contact {
-  padding-bottom: 43px;
-}
-
-.complete-top {
-  padding-bottom: 108px;
+    background-color: #f5f5f5;
 }
 
 .doctor {
-  background-color: #1B67FF;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1B67FF;
+    padding: 25px 10px 25px 10px;
 }
 
 .doctor image {
-  width: 150rpx;
-  height: 150rpx;
-  border-radius: 50%;
-  margin-right: 15px;
+    display: block;
+    width: 130rpx;
+    height: 130rpx;
+    border-radius: 50%;
+    margin-right: 10px;
 }
 
-.info {
-  flex: 1;
-  color: #fff;
-  font-size: 48rpx;
+.base-info {
+    flex: 1;
+    display: block;
 }
 
-.info text {
-  display: block;
-  margin-top: 5px;
+.base-info text {
+    display: block;
+    color: #fff;
+    font-size: 36rpx;
+    font-weight: 600;
+    margin-bottom: 5px;
 }
 
-.info text text {
-  display: inline-block;
-  font-size: 32rpx;
-  margin-left: 15px;
+.base-info .profession {
+    display: inline-block;
+    font-size: 28rpx;
+    font-weight: normal;
 }
 
-.hospital {
-  font-size: 32rpx;
+.base-info .hospital {
+    font-size: 32rpx;
+    font-weight: normal;
 }
 
-.btns button {
-  border: 1px solid #fff;
-  font-size: 25rpx;
-  padding: 0 10px;
-  color: #fff;
-  margin-bottom: 5px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  background-color: transparent;
+.btn-group button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 26rpx;
+    width: 110rpx;
+    height: 52rpx;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    margin-bottom: 5px;
 }
 
-.btns button image {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  margin-right: 2px;
+.btn-group image {
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin-right: 1px;
 }
 
 .time {
-  display: block;
-  color: #f5f5f5;
-  font-size: 32rpx;
-  padding: 10px 0;
-  background-color: #1A61F0;
-  text-align: center;
+    display: block;
+    background-color: #1A61F0;
+    text-align: center;
+    font-size: 32rpx;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.contact {
+    padding-bottom: 43px;
+}
+
+.complete-top {
+    padding-bottom: 108px;
 }
 
 .complete {
-  background-color: #f5f5f5;
+    background-color: #f5f5f5;
 }
 
 .complete button, .complete navigator {
-  font-size: 32rpx;
-  color: #A3ACBF;
-  padding: 10px 0;
-  background-color: #fff;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  max-width: 660rpx;
-  margin: 10px auto;
+    font-size: 32rpx;
+    color: #a3acbf;
+    padding: 10px 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 660rpx;
+    margin: 10px auto;
 }
 
-.complete button text, .complete navigator text{
-  color: #FF4F29;
+.complete button text, .complete navigator text {
+    color: #ff4f29;
 }
 
 .complete button image {
-  width: 63rpx;
-  height: 51rpx;
-  margin-right: 15px;
+    width: 63rpx;
+    height: 51rpx;
+    margin-right: 15px;
 }
 
 .on-contact {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 10px;
 }
 
 .on-contact input {
-  padding: 10px;
-  font-size: 32rpx;
-  color: #555;
-  flex: 1;
+    font-size: 32rpx;
+    color: #555;
+    flex: 1;
 }
 
 .enter-btn {
-  width: 17px;
-  height: 12px;
+    width: 17px;
+    height: 12px;
 }

@@ -1,59 +1,58 @@
 <scroll-view class="container">
-  <text class="name">{{obj['姓名']}}</text>
-  <view class="doctor-box-container">
-    <view class="doctor-box">
-      <view class="doctor-info">
-        <image src="{{obj['头像']}}" />
-        <view class="base-info">
-          <text class="hosiptal">{{obj['机构']}}</text>
-          <text class="major">{{obj['职称']}} {{obj['科室']}}</text>
+    <view class="bg" />
+    <text class="name">{{obj['姓名']}}</text>
+    <view class="doctor-container">
+        <view class="doctor">
+            <view class="doctor-top">
+                <image src="{{obj['头像']}}" />
+                <view class="base-info">
+                    <text>{{obj['机构']}}</text>
+                    <text class="profession">{{obj['职称']}} {{obj['科室']}}</text>
+                </view>
+                <view class="btn-group">
+                    <follow empid="{{obj['医生ID']}}" image="/assets/doctor/plus.png" />
+                    <button><image src="/assets/doctor/share.png" />分享</button>
+                </view>
+            </view>
+            <view class="other">
+                <view class="item">
+                    <image src="/assets/doctor/custom.png" />
+                    <text>咨询人次：<text class="value">{{obj['咨询人次'] || 0}}次</text></text>
+                </view>
+                <view class="item">
+                    <text>咨询价格：<text class="value">{{obj['价格']}}元</text></text>
+                </view>
+            </view>
+            <view class="other">
+                <view class="item">
+                    <image src="/assets/doctor/good.png" />
+                    <text>好评率：<text class="value">{{obj['好评率'] || 0}}%</text></text>
+                </view>
+            </view>
+            <view class="major">
+                <image src="/assets/doctor/behavior.png" />
+                <text>擅长：{{obj['擅长']}}</text>
+            </view>
         </view>
-        <view class="btns">
-          <follow empid="{{obj['医生ID']}}" image="/assets/doctor/plus.png" />
-          <button><image src="/assets/doctor/share.png" />分享</button>
-        </view>
-      </view>
-      <view class="detail">
-        <view class="item">
-          <image src="/assets/doctor/custom.png" />
-          <text>咨询人次：<text>{{obj['咨询人次'] || 0}}次</text></text>
-        </view>
-        <view class="item">
-          <text>咨询价格：<text>{{obj['价格']}}元</text></text>
-        </view>
-      </view>
-      <view class="detail">
-        <view class="item">
-          <image src="/assets/doctor/good.png" />
-          <text>好评率：<text>{{obj['好评率'] || 0}}%</text></text>
-        </view>
-      </view>
-      <view class="detail">
-        <view class="behavior">
-          <image src="/assets/doctor/behavior.png" />
-          <text>擅长：{{obj['擅长']}}</text>
-        </view>
-      </view>
     </view>
-  </view>
-  <view class="comments-container">
-    <view class="title">
-      <text>患者评价（{{list.length}}）</text>
-      <navigator>全部</navigator>
+    <view class="comments-container">
+        <view class="title">
+            <text>患者评价（{{list.length}}）</text>
+            <navigator>全部</navigator>
+        </view>
+        <view class="label">
+            <text class="high">水平很高（1095）</text>
+            <text class="high">医生很体贴（508）</text>
+            <text class="high">回复及时（1508）</text>
+            <text>态度一般（4）</text>
+        </view>
+        <view class="comments-list">
+            <comment list-data="{{list}}" />
+            <comment />
+        </view>
     </view>
-    <view class="label">
-      <text class="high">水平很高（1095）</text>
-      <text class="high">医生很体贴（508）</text>
-      <text class="high">回复及时（1508）</text>
-      <text>态度一般（4）</text>
-    </view>
-    <view class="comments-list">
-      <comment list-data="{{list}}"/>
-      <comment />
-    </view>
-  </view>
 </scroll-view>
 <view class="fix-bottom">
-  <button bindtap="submit" hover-class="none">付费咨询</button>
-  <navigator class="ori" hover-class="none">预约挂号</navigator>
+    <button bindtap="submit" hover-class="none">付费咨询</button>
+    <navigator class="ori" hover-class="none">预约挂号</navigator>
 </view>

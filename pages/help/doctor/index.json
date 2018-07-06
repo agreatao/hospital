@@ -1,9 +1,9 @@
 {
-  "navigationBarBackgroundColor": "#1B67FF",
-  "navigationBarTextStyle": "white",
-  "navigationBarTitleText": "",
-  "usingComponents": {
-    "comment": "/components/doctorComment/index",
-    "follow": "/components/followButton/index"
-  }
+    "navigationBarBackgroundColor": "#1B67FF",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "",
+    "usingComponents": {
+        "comment": "/components/doctorComment/index",
+        "follow": "/components/followButton/index"
+    }
 }

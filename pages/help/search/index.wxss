@@ -1,53 +1,58 @@
 page {
-  background-color: #1B67FF;
+    background-color: #1b67ff;
 }
+
 .container {
-  padding: 5px 10px;
-  background-color: #1B67FF;
+    display: block;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
 }
 
-.form {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  background: rgba(0, 0, 0, 0.08);
-  padding: 8px 15px;
-  border-radius: 4px;
+.search-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.08);
+    padding: 8px 15px;
+    border-radius: 4px;
 }
 
-.form image {
-  width: 15px;
-  height: 15px;
-  display: block;
-  float: left;
-  margin-right: 10px;
+.search-icon {
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
 }
 
-.form input {
-  font-size: 32rpx;
-  color: #fff;
-  flex: 1;
+.search-input {
+    font-size: 32rpx;
+    color: #fff;
+    flex: 1;
 }
 
-.search-list {
-  padding-top: 15px;
-}
-
-.title {
-  color: #fff;
-  font-size: 18px;
-  font-weight: 600;
-  margin-left: 10px;
-}
-
-.doctors {
-  margin-top: 15px;
+.pl {
+    color: #e1e2e3;
 }
 
 .search-btn {
-  background-color: transparent;
-  font-size: 32rpx;
-  color: #fff;
-  text-align: center;
-  padding: 0;
+    background-color: transparent;
+    font-size: 32rpx;
+    color: #fff;
+    text-align: center;
+}
+
+.search-container {
+    padding-top: 15px;
+}
+
+.title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.doctors {
+    margin-top: 15px;
 }

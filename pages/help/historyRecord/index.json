@@ -1,7 +1,9 @@
 {
-  "navigationBarTitleText": "咨询记录",
-  "usingComponents": {
-    "message": "/components/messageItem/index",
-    "follow": "/components/followButton/index"
-  }
+    "navigationBarBackgroundColor": "#1B67FF",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "咨询记录",
+    "usingComponents": {
+        "message": "/components/messageItem/index",
+        "follow": "/components/followButton/index"
+    }
 }

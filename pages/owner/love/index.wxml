@@ -1,20 +1,8 @@
-<!--pages/feature/index.wxml-->
 <scroll-view class="container">
-<view class='tip'>
-  <text>长按可取消关注</text>
-</view>
-  <view class="doctors">
-    <view wx:for="{{list}}" wx:key="unique" bindlongpress="deletelove" >
-      <doctor obj="{{item}}" />
+    <view class='tip'>
+        <text>{{list.length > 0 ? '长按可取消关注' : '暂无关注'}}</text>
     </view>
-  </view>
+    <view class="doctors">
+        <doctor list-data="{{list}}" binddeletelove="deleteLove" />
+    </view>
 </scroll-view>
-<!-- <view class='lary' hidden='{{showLary}}'>
-  <view class='win'>
-    <view class='content'>确定不再关注?</view>
-    <view class='btns'>
-        <button class='nofocus' bindtap='nofocus'>不再关注</button>
-        <button class='goonfocus' bindtap='close'>继续关注</button>
-    </view>
-  </view>
-</view> -->

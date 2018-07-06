@@ -1,5 +1,5 @@
 {
-  "usingComponents": {
-    "doctor": "/components/doctorReply/index"
-  }
+    "usingComponents": {
+        "doctor": "/components/doctorReply/index"
+    }
 }
