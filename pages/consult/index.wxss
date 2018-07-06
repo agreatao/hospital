@@ -9,7 +9,6 @@
 
 .btn {
     display: block;
-    flex-direction: column;
 }
 
 .btn image {

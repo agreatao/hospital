@@ -1,1 +1,121 @@
-/* pages/home/index.wxss */
+page {
+    background-color: #f5f5f5;
+}
+
+.ad {
+    display: block;
+    width: 100%;
+}
+
+.nav-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px 0;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.nav-btn navigator {
+    display: block;
+}
+
+.nav-btn navigator image {
+    display: block;
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+}
+
+.nav-btn navigator text {
+    display: block;
+    font-size: 14px;
+    color: #868fa0;
+    height: 30px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.notice {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 5px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.notice image {
+    display: block;
+    width: 80px;
+    height: 25px;
+}
+
+.notice text {
+    flex: 1;
+    color: #868fa0;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    font-size: 32rpx;
+    margin-left: 5px;
+}
+
+.user-container, .consult-container {
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.title {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #efefef;
+}
+
+.box, .doctors {
+    padding: 10px;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f6f9;
+    padding: 25rpx;
+    border-radius: 8rpx;
+}
+
+.user-image {
+    width: 112rpx;
+    height: 112rpx;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.info {
+    flex: 1;
+    display: block;
+    margin-left: 10px;
+}
+
+.name {
+    display: block;
+    text-align: left;
+    margin-bottom: 2px;
+}
+
+.addr {
+    display: block;
+    text-align: left;
+    font-size: 30rpx;
+    color: #868fa0;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+}

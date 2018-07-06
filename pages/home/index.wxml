@@ -1,38 +1,38 @@
 <scroll-view>
-    <image class="ad" src="" />
+    <image class="ad" src="/assets/home/banner.png" mode="widthFix" />
     <view class="nav-btn">
         <navigator url="/pages/appoint/index" open-type="switchTab">
-            <image src="" />
+            <image src="/assets/home/1.png" />
             <text>预约服务</text>
         </navigator>
         <navigator url="/pages/service/index" open-type="switchTab">
-            <image src="" />
+            <image src="/assets/home/2.png" />
             <text>便民服务</text>
         </navigator>
         <navigator url="/pages/consult/index" open-type="switchTab">
-            <image src="" />
+            <image src="/assets/home/3.png" />
             <text>医生咨询</text>
         </navigator>
         <navigator url="/pages/feature/index" open-type="switchTab">
-            <image src="" />
+            <image src="/assets/home/4.png" />
             <text>特色服务</text>
         </navigator>
     </view>
     <view class="notice">
-        <image src="" />
-        <text>内容</text>
+        <image src="/assets/home/notice.png" />
+        <text>内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</text>
     </view>
     <view class="user-container">
         <text class="title">个人中心</text>
         <view class="box">
-            <button class="user">
-                <image src="" />
-                <view class="">
-                    <text>姓名</text>
-                    <text>地址</text>
+            <navigator class="user" url="/pages/user/index"  open-type="switchTab">
+                <image class="user-image" src="{{user['头像']}}" />
+                <view class="info">
+                    <text class="name">{{user['真实姓名']}}</text>
+                    <text class="addr">{{user['住址']}}</text>
                 </view>
-                <image src="/assets/arrow-right.png" />
-            </button>
+                <image class="icon" src="/assets/arrow-right.png" />
+            </navigator>
         </view>
     </view>
     <view class="consult-container">

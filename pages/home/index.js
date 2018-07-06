@@ -2,7 +2,13 @@ const app = getApp();
 
 Page({
     data: {
-        list: []
+        list: [],
+        user: null
+    },
+    onLoad: function(options) {
+        this.setData({
+            user: app.globalData.userinfo
+        })
     },
     onShow: function(options) {
         wx.request({
