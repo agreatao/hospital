@@ -45,6 +45,7 @@ page {
 }
 
 .sure {
+    display: block;
     width: 690rpx;
     height: 88rpx;
     background: #e0e0e0;
