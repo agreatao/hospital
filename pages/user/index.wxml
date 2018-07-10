@@ -4,8 +4,10 @@
     <image class='head' src="{{obj['头像']}}"></image>
     <text class='name'>{{obj['真实姓名']}}</text>
     <text class='cardCode'>{{sfz}}</text>
-    <image class='set' src='/assets/my_set.png'></image>
-    <image class='msg' src='/assets/my_msg.png'></image>
+    <navigator url="info/index" hover-class="none">
+      <image class='set' src='/assets/my_set.png'></image>
+    </navigator>
+    <image class='msg' src='/assets/my_msg.png' style='display:none;'></image>
     <view class='msgCount'>11</view>
 </view>
 <view class='list'>
