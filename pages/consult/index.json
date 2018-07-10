@@ -1,4 +1,7 @@
 {
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true,
     "usingComponents": {
         "doctor": "/components/doctorReply/index"
     }

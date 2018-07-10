@@ -29,7 +29,25 @@ Component({
         isFollow: false
     },
     methods: {
+
         change: function(e) {
+            if (this.data.isFollow) {
+                wx.showModal({
+                    title: "确定取消关注吗?",
+                    confirmText: "确定",
+                    confirmColor: "#FF4F29",
+                    cancelText: "返回",
+                    success: (res) => {
+                        if (res.confirm) {
+                            this.req();
+                        }
+                    }
+                })
+            } else {
+                this.req();
+            }
+        },
+        req: function() {
             wx.request({
                 url: "https://www.dszejt.com/ws/ws_xcx.asmx/Set_XCX_GZ_State",
                 data: {

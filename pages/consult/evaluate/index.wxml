@@ -1,23 +1,23 @@
 <view class="point">
-  <view class="item">
-    <text>医生的服务态度</text>
-    <view class="star">
-      <image wx:for="{{first}}" wx:key="unique" src="{{item.image}}" bindtap="result" data-index="{{index}}" data-key="first" />
+    <view class="item">
+        <text>医生的服务态度</text>
+        <view class="star">
+            <image wx:for="{{first}}" wx:key="unique" src="{{item.image}}" bindtap="result" data-index="{{index}}" data-key="first" />
+        </view>
     </view>
-  </view>
-  <view class="item">
-    <text>医生的专业水平</text>
-    <view class="star">
-      <image wx:for="{{second}}" wx:key="unique" src="{{item.image}}" bindtap="result" data-index="{{index}}" data-key="second"/>
+    <view class="item">
+        <text>医生的专业水平</text>
+        <view class="star">
+            <image wx:for="{{second}}" wx:key="unique" src="{{item.image}}" bindtap="result" data-index="{{index}}" data-key="second" />
+        </view>
     </view>
-  </view>
-  <view class="item">
-    <text>医生的回复速度</text>
-    <view class="star">
-      <image wx:for="{{third}}" wx:key="unique" src="{{item.image}}" bindtap="result" data-index="{{index}}" data-key="third"/>
+    <view class="item">
+        <text>医生的回复速度</text>
+        <view class="star">
+            <image wx:for="{{third}}" wx:key="unique" src="{{item.image}}" bindtap="result" data-index="{{index}}" data-key="third" />
+        </view>
     </view>
-  </view>
 </view>
-<textarea class="content" placeholder-class="pl" placeholder='分享您的就医感受' bindinput="contentInput" bindconfirm="contentInput"/>
+<textarea class="content" placeholder-class="pl" placeholder='分享您的就医感受' bindinput="contentInput" bindconfirm="contentInput" />
 <button class="submit" bindtap="submit" hover-class="none">提交</button>
 <text class="desc">您对我们的评价非常重要</text>

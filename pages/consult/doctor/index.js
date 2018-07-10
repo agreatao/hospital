@@ -59,14 +59,14 @@ Page({
                         method: "POST",
                         dataType: "JSON",
                         success: (res) => {
-                            var data = JSON.parse(JSON.parse(res.data).d);
+                            var order = JSON.parse(JSON.parse(res.data).d);
                             // TODO 微信支付
                             // 支付成功
                             wx.request({
                                 url: "https://www.dszejt.com/ws/ws_xcx.asmx/Set_XCX_YSZX_DDQR",
                                 data: {
-                                    strZXID: data['订单流水'],
-                                    DZID: '3241312415', // 支付成功返回订单编号
+                                    strZXID: order['订单流水'],
+                                    DZID: '3241312415', // 支付成功返回订单编号,此处测试，随机，应使用微信支付成功返回的编号
                                     strKey: "C1BC7666E5C74BD384196-AD1532102C1"
                                 },
                                 method: "POST",
@@ -78,11 +78,12 @@ Page({
                                     // 支付成功
                                     if (data.code == 0) {
                                         wx.navigateTo({
-                                            url: '/pages/consult/ask/index?ID=' + data['订单流水'],
+                                            url: '../ask/index?ID=' + order['订单流水'],
                                         })
                                     } else {
                                         wx.showToast({
-                                            title: '支付失败'
+                                            title: '支付失败',
+                                            icon: "none"
                                         })
                                     }
                                 }

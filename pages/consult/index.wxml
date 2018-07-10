@@ -10,7 +10,7 @@
         </navigator>
         <navigator class="btn" url="historySearch/index" hover-class="none">
             <image src="/assets/consult/history.png" />
-            <text>历史查询</text>
+            <text>历史咨询</text>
         </navigator>
         <navigator class="btn" hover-class="none">
             <image src="/assets/consult/more.png" />

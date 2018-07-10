@@ -45,6 +45,8 @@ page {
 }
 
 .sure {
+    display: block;
+    margin: 0 auto;
     width: 690rpx;
     height: 88rpx;
     background: #e0e0e0;
@@ -54,7 +56,6 @@ page {
     color: rgba(255, 255, 255, 1);
     line-height: 88rpx;
     text-align: center;
-    margin: 0 auto;
     margin-top: 40rpx;
 }
 

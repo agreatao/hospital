@@ -2,8 +2,8 @@ const app = getApp();
 
 Page({
     data: {
-        cardId: '',
-        password: ''
+        cardId: '421003198210020013',
+        password: '111111'
     },
     // 获取输入账号
     usernameInput: function(e) {
@@ -34,7 +34,7 @@ Page({
             wx.request({
                 url: "https://www.dszejt.com/ws/ws_xcx.asmx/GetEjtUserLogin",
                 data: {
-                    strSFZH: this.data.cardId, //有数据测试账号"421003198210020013"
+                    strSFZH: this.data.cardId, // 421003198210020013
                     strPwd: this.data.password, // 111111
                     strKey: "C1BC7666E5C74BD384196-AD1532102C1"
                 },

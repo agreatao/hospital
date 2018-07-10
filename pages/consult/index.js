@@ -2,9 +2,17 @@ const app = getApp();
 
 Page({
     data: {
-        list: []
+        list: null
     },
-    onShow: function(options) {
+    onLoad: function(options) {
+        this.getList();
+    },
+    onPullDownRefresh: function() {
+        this.getList(() => {
+            wx.stopPullDownRefresh();
+        })
+    },
+    getList: function(cb) {
         wx.request({
             url: "https://www.dszejt.com/ws/ws_xcx.asmx/Get_XCX_YSZX_YSList_ZJHF",
             data: {
@@ -17,6 +25,9 @@ Page({
                 this.setData({
                     list: JSON.parse(JSON.parse(res.data).d)
                 })
+                if(typeof cb === "function") {
+                    cb.call(this);
+                }
             }
         })
     }

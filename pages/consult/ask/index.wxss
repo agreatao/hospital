@@ -1,60 +1,59 @@
 page {
-  background-color: #F1F2F6;
+    background-color: #f1f2f6;
 }
 
 .desc {
-  display: block;
-  color: #868FA0;
-  font-size: 32rpx;
-  padding: 10px;
+    display: block;
+    color: #868fa0;
+    font-size: 32rpx;
+    padding: 10px;
 }
 
 .desc text {
-  color: #FF6F18;
+    color: #ff6f18;
 }
 
 .box {
-  background-color: #fff;
-  padding:10px 10px 5px 10px;
+    background-color: #fff;
+    padding: 10px 10px 5px 10px;
 }
 
 .box-item {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .box-item text {
-  display: block;
-  font-size: 32rpx;
-  color: #222529;
-  padding: 10px;
+    display: block;
+    font-size: 32rpx;
+    color: #222529;
+    padding: 10px;
 }
 
 .box-item textarea {
-  display: block;
-  background-color: #F8F8F8;
-  border-radius: 8rpx;
-  width: 660rpx;
-  margin: 0 auto;
-  padding: 10px;
-  font-size: 28rpx;
+    display: block;
+    background-color: #f8f8f8;
+    border-radius: 8rpx;
+    width: 660rpx;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 28rpx;
 }
 
 .box-item .plt {
-  color: #A3ACBF;
+    color: #a3acbf;
 }
 
 .box-item button {
-  background-color: #fff;
-  color: #A3ACBF;
-  font-size: 32rpx;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+    background-color: #fff;
+    color: #a3acbf;
+    font-size: 32rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .box-item button image {
-  width: 40rpx;
-  height: 40rpx;
-  margin-right: 15px;
+    width: 40rpx;
+    height: 40rpx;
+    margin-right: 15px;
 }
-

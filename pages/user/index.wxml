@@ -19,7 +19,7 @@
         <text>报告查询</text>
         <image class='arrow' src='/assets/arrow_info2.png'></image>
     </navigator>
-    <navigator class='item' hover-class="none">
+    <navigator class='item' url="/pages/consult/historySearch/index" hover-class="none">
         <image class='info_icon' src='/assets/history.png'></image>
         <text>历史咨询</text>
         <image class='arrow' src='/assets/arrow_info2.png'></image>

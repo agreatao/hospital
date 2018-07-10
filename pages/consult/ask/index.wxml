@@ -1,19 +1,20 @@
 <scroll-view class="container">
-  <text class="desc">咨询之前需要您填写以下内容，使医生更好的了解您的病情，以下内容均为<text>选填</text>。</text>
-  <view class="box">
-    <view class="box-item">
-      <text>1、您的问题</text>
-      <textarea placeholder="在此输入您的问题" placeholder-class="plt" bindconfirm="titleInput" bindinput="titleInput" />
+    <text class="desc">咨询之前需要您填写以下内容，使医生更好的了解您的病情，以下内容均为<text>选填</text>。</text>
+    <view class="box">
+        <view class="box-item">
+            <text>1、您的问题</text>
+            <textarea placeholder="在此输入您的问题" placeholder-class="plt" bindconfirm="titleInput" bindinput="titleInput" />
+        </view>
+        <view class="box-item">
+            <text>2、症状描述</text>
+            <textarea placeholder="请描述一下您的症状" placeholder-class="plt" bindConfirm="contentInput" bindinput="contentInput" />
+        </view>
+        <view class="box-item">
+            <view class="image-list">
+            </view>
+            <button>
+                <image src="/assets/consult/camera.png" hover-class="none" />点击上传图片，最多上传5张</button>
+        </view>
     </view>
-    <view class="box-item">
-      <text>2、症状描述</text>
-      <textarea placeholder="请描述一下您的症状" placeholder-class="plt" bindConfirm="contentInput" bindinput="contentInput" />
-    </view>
-    <view class="box-item">
-      <view class="image-list">
-      </view>
-      <button><image src="/assets/consult/camera.png" hover-class="none"/>点击上传图片，最多上传5张</button>
-    </view>
-  </view>
-  <button class="submit" bindtap="startConsult" hover-class="none">开始咨询</button>
+    <button class="submit" bindtap="startConsult" hover-class="none">开始咨询</button>
 </scroll-view>

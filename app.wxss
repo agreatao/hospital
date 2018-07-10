@@ -1,4 +1,4 @@
-button, navigator, text, view, input, page {
+button, navigator, text, view, input, page, scroll-view, image, textarea {
     box-sizing: border-box;
 }
 
@@ -31,12 +31,22 @@ image {
     display: block;
 }
 
+.fix-top {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
 .fix-bottom {
+    display: block;
     position: fixed;
     bottom: 0;
     left: 0;
-    right: 0;
-    background-color: #fff;
+    width: 100%;
+    z-index: 9999;
 }
 
 .btn-block {

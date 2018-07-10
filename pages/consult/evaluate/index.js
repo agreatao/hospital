@@ -40,12 +40,12 @@ Page({
         thirdPoint: 0,
         content: ""
     },
-    onLoad: function (options) {
+    onLoad: function(options) {
         this.setData({
             id: options['ID']
         })
     },
-    result: function (e) {
+    result: function(e) {
         var key = e.currentTarget.dataset.key;
         for (var i = 0; i < this.data[key].length; i++) {
             if (i <= e.currentTarget.dataset.index) {
@@ -59,12 +59,12 @@ Page({
             [key + 'Point']: e.currentTarget.dataset.index + 1
         })
     },
-    contentInput: function (e) {
+    contentInput: function(e) {
         this.setData({
             content: e.detail.value
         })
     },
-    submit: function (e) {
+    submit: function(e) {
         wx.request({
             url: "https://www.dszejt.com/ws/ws_xcx.asmx/Set_XCX_YSZX_PJData",
             data: {
@@ -81,8 +81,8 @@ Page({
                     wx.showToast({
                         title: '评价成功'
                     });
-                    wx.navigateTo({
-                        url: '/page/consult/index',
+                    wx.switchTab({
+                        url: '/pages/consult/index',
                     })
                 }
             }

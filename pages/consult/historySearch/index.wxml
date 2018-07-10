@@ -18,5 +18,5 @@
             </view>
         </view>
     </view>
-    <text class="time">咨询时间：{{item['开始时间']}} - {{item['结束时间']}}</text>
+    <text class="time">咨询时间：{{item['开始时间']}}-{{item['结束时间']}}</text>
 </navigator>

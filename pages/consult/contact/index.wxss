@@ -2,11 +2,27 @@ page {
     background-color: #f5f5f5;
 }
 
+.messages {
+    padding: 0 10rpx;
+}
+
+.messages ::-webkit-scrollbar {
+    width: 1px;
+}
+
+.fix-bottom.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 70rpx;
+    padding: 0 20rpx;
+}
+
 .doctor {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #1B67FF;
+    background-color: #1b67ff;
     padding: 25px 10px 25px 10px;
 }
 
@@ -64,26 +80,33 @@ page {
 
 .time {
     display: block;
-    background-color: #1A61F0;
+    background-color: #1a61f0;
     text-align: center;
     font-size: 32rpx;
     color: #fff;
     padding: 10px 0;
 }
 
-.contact {
-    padding-bottom: 43px;
+.fix-bottom {
+    background-color: #fff;
 }
 
-.complete-top {
-    padding-bottom: 108px;
+.fix-bottom.contact input {
+    font-size: 30rpx;
+    color: #555;
+    flex: 1;
 }
 
-.complete {
+.fix-bottom.contact .enter-btn {
+    width: 17px;
+    height: 12px;
+}
+
+.fix-bottom.complete {
     background-color: #f5f5f5;
 }
 
-.complete button, .complete navigator {
+.fix-bottom.complete button, .fix-bottom.complete navigator {
     font-size: 32rpx;
     color: #a3acbf;
     padding: 10px 0;
@@ -96,30 +119,13 @@ page {
     margin: 10px auto;
 }
 
-.complete button text, .complete navigator text {
+.fix-bottom.complete button text, .fix-bottom.complete navigator text {
     color: #ff4f29;
+    font-size: 28rpx;
 }
 
-.complete button image {
+.fix-bottom.complete button image {
     width: 63rpx;
     height: 51rpx;
     margin-right: 15px;
-}
-
-.on-contact {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 5px 10px;
-}
-
-.on-contact input {
-    font-size: 32rpx;
-    color: #555;
-    flex: 1;
-}
-
-.enter-btn {
-    width: 17px;
-    height: 12px;
 }
