@@ -1,2 +1,1 @@
-<!--pages/feature/index.wxml-->
- <nocode></nocode>  
+<image src="/assets/feature.png" bindtap="mo"></image>
